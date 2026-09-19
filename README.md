@@ -27,8 +27,9 @@ css/ js/ fonts/
 
 ## Deploy
 
-Static site — Cloudflare Pages or GitHub Pages.
+GitHub Pages (same pattern as [donglai6.github.io](https://donglai6.github.io/)):
 
-- Build command: (none)
-- Output directory: `/` (repo root)
+- Repo: `youwenzhang19/youwenzhang19.github.io`
+- Site: https://youwenzhang19.github.io/
+- Build command: (none) — publish from `main` / root
 - Calendar window is **manual**: edit `data/schedule.json` → `window`.
