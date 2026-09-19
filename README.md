@@ -14,6 +14,7 @@ Static personal site: projects / courses / calendar / music / life.
 ```
 index.html          # hub
 schedule/           # calendar (manual window in data/schedule.json)
+papers/             # reading list (manual in data/papers.json)
 projects/           # project pages
 courses/            # course pages
 music/              # music notes

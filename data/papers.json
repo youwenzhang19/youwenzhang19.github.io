@@ -1,0 +1,23 @@
+{
+  "updated": "2026-09-20",
+  "note": "Papers I’m reading / following. Edit this file manually.",
+  "groups": [
+    {
+      "date": "2026-09-20",
+      "papers": [
+        {
+          "title": "Circumbinary Accretion: From Binary Stars to Massive Binary Black Holes",
+          "authors": "Dong Lai, Diego J. Muñoz",
+          "href": "./221100028v2.pdf",
+          "note": "arXiv:2211.00028v2"
+        },
+        {
+          "title": "科学发现",
+          "authors": "亨普尔 (Carl G. Hempel)",
+          "href": "./亨普尔_科学发现.pdf",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

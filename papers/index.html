@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Papers</title>
+  <link rel="stylesheet" href="../css/site.css?v=8" />
+</head>
+<body>
+  <h1 class="site-title title-center">Papers</h1>
+
+  <p>Back to <a href="../index.html">homepage</a></p>
+
+  <div id="list"></div>
+
+  <hr class="rule thin" />
+  <p>Back to <a href="../index.html">homepage</a></p>
+
+  <script type="module">
+    import { loadJSON, formatDay } from "../js/lib.js?v=7";
+
+    const data = await loadJSON("../data/papers.json?v=2");
+    const groups = (data.groups || []).slice().sort((a, b) =>
+      String(b.date).localeCompare(String(a.date))
+    );
+
+    const root = document.getElementById("list");
+    if (!groups.length) {
+      root.innerHTML = `<div class="cal-items"><div class="cal-item">(empty)</div></div>`;
+    } else {
+      root.innerHTML = groups.map(g => {
+        const papers = (g.papers || []).map(p => {
+          const title = p.href
+            ? `<a href="${p.href}" target="_blank" rel="noopener">${p.title || "(untitled)"}</a>`
+            : (p.title || "(untitled)");
+          const meta = [p.authors, p.note].filter(Boolean).join(" — ");
+          const metaLine = meta ? `<br>&nbsp;&nbsp;${meta}` : "";
+          return `<div class="cal-item">- ${title}${metaLine}</div>`;
+        }).join("") || `<div class="cal-item">(empty)</div>`;
+        return `
+          <p class="section-label day-label">${formatDay(g.date)}</p>
+          <div class="cal-items">${papers}</div>
+        `;
+      }).join("");
+    }
+  </script>
+</body>
+</html>
