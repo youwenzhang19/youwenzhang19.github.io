@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Calendar</title>
+  <link rel="stylesheet" href="../css/site.css?v=8" />
+</head>
+<body>
+  <h1 class="site-title title-center">Calendar</h1>
+
+  <p>Back to <a href="../index.html">homepage</a></p>
+
+  <div id="days"></div>
+
+  <hr class="rule thin" />
+
+  <ul class="hub">
+    <li><a href="https://canvas.sjtu.edu.cn/" target="_blank" rel="noopener">Canvas</a></li>
+    <li><a href="https://mail.sjtu.edu.cn/" target="_blank" rel="noopener">Mailsjtu</a></li>
+  </ul>
+
+  <hr class="rule thin" />
+  <p>Back to <a href="../index.html">homepage</a></p>
+
+  <script type="module">
+    import { loadJSON, loadICS, groupByDay, formatDay, formatItemLine } from "../js/lib.js?v=7";
+
+    const schedule = await loadJSON("../data/schedule.json?v=6");
+    // Manual window only — edit schedule.json "window" yourself; no auto date roll.
+    const windowDays = schedule.window || [];
+    const windowSet = new Set(windowDays);
+
+    let appleEvents = [];
+    const cal = schedule.apple_calendar || {};
+
+    try {
+      if (cal.enabled && cal.ics_url) {
+        appleEvents = await loadICS(cal.ics_url);
+      } else {
+        appleEvents = await loadICS("../data/calendar.ics?v=3");
+      }
+    } catch (_) {
+      appleEvents = [];
+    }
+
+    appleEvents = appleEvents.filter(e => windowSet.has(e.date));
+
+    const todos = (schedule.todos || []).filter(t => windowSet.has(t.date));
+
+    const days = groupByDay({ todos, appleEvents })
+      .filter(d => windowSet.has(d.date));
+
+    const byDate = new Map(days.map(d => [d.date, d]));
+    const ordered = windowDays.map(date => byDate.get(date) || { date, items: [] });
+
+    const root = document.getElementById("days");
+    root.innerHTML = ordered.map(day => {
+      const items = day.items.length
+        ? day.items.map(item => {
+            const text = formatItemLine(item);
+            return item.done
+              ? `<div class="cal-item"><s>${text}</s></div>`
+              : `<div class="cal-item">${text}</div>`;
+          }).join("")
+        : `<div class="cal-item">(free)</div>`;
+      return `
+        <p class="section-label day-label">${formatDay(day.date)}</p>
+        <div class="cal-items">${items}</div>
+      `;
+    }).join("");
+  </script>
+</body>
+</html>

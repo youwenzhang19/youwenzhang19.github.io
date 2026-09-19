@@ -1,0 +1,159 @@
+{
+  "updated": "2026-09-20",
+  "timezone": "Asia/Shanghai",
+  "window": [
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23"
+  ],
+  "apple_calendar": {
+    "enabled": false,
+    "ics_url": "",
+    "note": "Apple Calendar → Share → Public Calendar → paste ICS URL into ics_url and set enabled: true."
+  },
+  "todos": [
+    {
+      "id": "s1",
+      "date": "2026-09-20",
+      "text": "Galactic Physics L2",
+      "time": "2026-09-20T12:55:00",
+      "end": "2026-09-20T15:40:00",
+      "source": "lesson",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s2",
+      "date": "2026-09-20",
+      "text": "Astronomy Museum internship",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s2a",
+      "date": "2026-09-20",
+      "text": "Advanced Professional Seminar — HW1",
+      "time": null,
+      "end": null,
+      "source": "lesson",
+      "done": false,
+      "priority": 3
+    },
+    {
+      "id": "s2b",
+      "date": "2026-09-20",
+      "text": "Philosophy of Science — course reading (paper)",
+      "time": null,
+      "end": null,
+      "source": "lesson",
+      "done": false,
+      "priority": 3
+    },
+    {
+      "id": "s2c",
+      "date": "2026-09-20",
+      "text": "Philosophy of Science — Thinking Question 1",
+      "time": null,
+      "end": null,
+      "source": "lesson",
+      "done": false,
+      "priority": 3
+    },
+    {
+      "id": "s2d",
+      "date": "2026-09-20",
+      "text": "Homepage calendar — manual update",
+      "time": null,
+      "end": null,
+      "source": "project",
+      "ref": "schedule",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s2e",
+      "date": "2026-09-20",
+      "text": "SJTU Course OS — push project forward",
+      "time": null,
+      "end": null,
+      "source": "project",
+      "ref": "projects/sjtu-course-os.html",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s3",
+      "date": "2026-09-21",
+      "text": "Advanced Professional Seminar L2",
+      "time": "2026-09-21T14:00:00",
+      "end": "2026-09-21T16:45:00",
+      "source": "lesson",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s4",
+      "date": "2026-09-21",
+      "text": "Philosophy of Science L2",
+      "time": "2026-09-21T18:00:00",
+      "end": "2026-09-21T20:30:00",
+      "source": "lesson",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s5",
+      "date": "2026-09-22",
+      "text": "Thermodynamics and Statistical Physics L2",
+      "time": "2026-09-22T10:00:00",
+      "end": "2026-09-22T11:40:00",
+      "source": "lesson",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s6",
+      "date": "2026-09-22",
+      "text": "Basic Theory of Marxism L2",
+      "time": "2026-09-22T12:55:00",
+      "end": "2026-09-22T15:40:00",
+      "source": "lesson",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s7",
+      "date": "2026-09-22",
+      "text": "Creative Design for Graphic L2",
+      "time": "2026-09-22T18:00:00",
+      "end": "2026-09-22T20:20:00",
+      "source": "lesson",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s8",
+      "date": "2026-09-23",
+      "text": "[Lecture] Light, telescopes, radio wavelengths",
+      "time": "2026-09-23T16:00:00",
+      "end": "2026-09-23T17:30:00",
+      "source": "lesson",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s9",
+      "date": "2026-09-23",
+      "text": "Astronomy Museum internship",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+# 将 Apple 日历 ICS 定时同步到仓库，避免浏览器跨域。
+# 用法：在 GitHub repo Settings → Secrets 添加 APPLE_ICS_URL
+# 并把 data/schedule.json 里 apple_calendar.enabled 设为 false（改读本地 calendar.ics）
+name: sync-apple-calendar
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch ICS
+        env:
+          APPLE_ICS_URL: ${{ secrets.APPLE_ICS_URL }}
+        run: |
+          if [ -z "$APPLE_ICS_URL" ]; then
+            echo "APPLE_ICS_URL secret not set; skip"
+            exit 0
+          fi
+          curl -fsSL "$APPLE_ICS_URL" -o data/calendar.ics
+      - name: Commit if changed
+        run: |
+          git config user.name "calendar-bot"
+          git config user.email "calendar-bot@users.noreply.github.com"
+          git add data/calendar.ics
+          git diff --staged --quiet || git commit -m "chore: sync Apple calendar ICS"
+          git push || true

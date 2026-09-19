@@ -1,0 +1,69 @@
+{
+  "updated": "2026-09-19",
+  "sources": {
+    "notes": ["Feishu transcription → local", "MarginNote (problem sets)"],
+    "materials": ["iCloud", "SJTU Canvas", "SJTU cloud (past slides)"]
+  },
+  "courses": [
+    {
+      "id": "philosophy-of-science",
+      "code": "",
+      "title": "Philosophy of Science",
+      "term": "2026 Fall",
+      "status": "active",
+      "href": "courses/philosophy-of-science.html",
+      "score": { "current": null, "components": [] },
+      "homework": [
+        { "id": "reading", "title": "Course reading (paper)", "due": null, "submitted": false, "score": null, "note": "" },
+        { "id": "tq1", "title": "Thinking Question 1", "due": null, "submitted": false, "score": null, "note": "" }
+      ],
+      "sessions": []
+    },
+    {
+      "id": "galactic-physics",
+      "code": "",
+      "title": "Galactic Physics",
+      "term": "2026 Fall",
+      "status": "active",
+      "href": "courses/galactic-physics.html",
+      "score": { "current": null, "components": [] },
+      "homework": [],
+      "sessions": []
+    },
+    {
+      "id": "thermodynamics-and-statistical-physics",
+      "code": "",
+      "title": "Thermodynamics and Statistical Physics",
+      "term": "2026 Fall",
+      "status": "active",
+      "href": "courses/thermodynamics-and-statistical-physics.html",
+      "score": { "current": null, "components": [] },
+      "homework": [],
+      "sessions": []
+    },
+    {
+      "id": "advanced-professional-research-seminar",
+      "code": "",
+      "title": "Advanced professional research and study seminar",
+      "term": "2026 Fall",
+      "status": "active",
+      "href": "courses/advanced-professional-research-seminar.html",
+      "score": { "current": null, "components": [] },
+      "homework": [
+        { "id": "hw1", "title": "HW1", "due": null, "submitted": false, "score": null, "note": "" }
+      ],
+      "sessions": []
+    },
+    {
+      "id": "creative-design-for-graphic",
+      "code": "",
+      "title": "Creative Design for Graphic",
+      "term": "2026 Fall",
+      "status": "active",
+      "href": "courses/creative-design-for-graphic.html",
+      "score": { "current": null, "components": [] },
+      "homework": [],
+      "sessions": []
+    }
+  ]
+}

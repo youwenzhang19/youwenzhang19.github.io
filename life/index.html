@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Life</title>
+  <link rel="stylesheet" href="../css/site.css?v=8" />
+</head>
+<body>
+  <h1 class="site-title title-center">Life</h1>
+
+  <p>Back to <a href="../index.html">homepage</a></p>
+
+  <div id="list"></div>
+
+  <hr class="rule thin" />
+  <p>Back to <a href="../index.html">homepage</a></p>
+
+  <script type="module">
+    import { loadJSON } from "../js/lib.js?v=7";
+    const data = await loadJSON("../data/life.json?v=2");
+    const entries = (data.entries || []).sort((a, b) =>
+      String(b.date).localeCompare(String(a.date))
+    );
+
+    const stars = (n) => {
+      const r = Math.max(0, Math.min(5, n || 0));
+      return "★".repeat(r) + "☆".repeat(5 - r);
+    };
+
+    document.getElementById("list").innerHTML = entries.length
+      ? entries.map(e => `
+          <p class="section-label day-label">${e.title}</p>
+          <div class="cal-items">
+            <div class="cal-item">type.  ${e.type}</div>
+            <div class="cal-item">date.  ${e.date || "—"}</div>
+            <div class="cal-item">rating.  ${stars(e.rating)}</div>
+            <div class="cal-item">${e.feeling || ""}</div>
+          </div>
+        `).join("")
+      : '<div class="cal-items"><div class="cal-item">(empty)</div></div>';
+  </script>
+</body>
+</html>

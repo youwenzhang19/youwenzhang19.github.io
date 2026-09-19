@@ -1,0 +1,147 @@
+{
+  "updated": "2026-09-19",
+  "projects": [
+    {
+      "id": "sjtu-course-os",
+      "title": "SJTU Course OS",
+      "scale": "medium",
+      "form": "WEBSITE",
+      "status": "active",
+      "progress": 5,
+      "started": "2026-09-15",
+      "ended": null,
+      "members": [
+        "Youwen Zhang",
+        "Minyi Lei",
+        "Hao Qiu",
+        "Wenxuan Han"
+      ],
+      "brief": "Want to audit across majors, but official picker hides half the doors. Shared where/when/what layer so more people can find the class. Just started.",
+      "tags": [
+        "campus",
+        "courses",
+        "web"
+      ],
+      "href": "projects/sjtu-course-os.html",
+      "todos": []
+    },
+    {
+      "id": "skate-halloween",
+      "title": "Skate Club Halloween Anniversary",
+      "scale": "medium",
+      "form": "EVENT",
+      "status": "active",
+      "progress": 5,
+      "started": "2026-09-14",
+      "ended": null,
+      "members": [
+        "Youwen Zhang",
+        "SJTU Skateboarding Club"
+      ],
+      "brief": "Early brainstorm: tunnel graffiti → JJT skate → secret-forest tent party; jam / throw-prize ideas. Halloween day.",
+      "tags": [
+        "campus",
+        "event",
+        "skate"
+      ],
+      "href": "projects/skate-halloween.html",
+      "todos": []
+    },
+    {
+      "id": "last-choice",
+      "title": "The Last Choice",
+      "scale": "medium",
+      "form": "SCENE + GAME",
+      "status": "done",
+      "progress": 100,
+      "started": "2026-09-08",
+      "ended": "2026-09-13",
+      "members": [
+        "Youwen Zhang",
+        "Hanlu Zuo",
+        "Weifeng Jiang",
+        "Yueran Zang"
+      ],
+      "brief": "2078: AI chose your life 11,204 times; apply to reclaim autonomy via work/marriage/memory tests. Youwen: concept design + sound. First Global AI Art Hackathon.",
+      "tags": [
+        "art",
+        "hackathon",
+        "electron"
+      ],
+      "href": "projects/last-choice.html",
+      "todos": []
+    },
+    {
+      "id": "picks-online",
+      "title": "picks",
+      "scale": "medium",
+      "form": "WEBSITE",
+      "status": "unmaintained",
+      "progress": 70,
+      "started": "2026-08-08",
+      "ended": "2026-08-23",
+      "members": [
+        "Youwen Zhang"
+      ],
+      "brief": "PICKS — personalized push platform: follow artists across music services, Friday new-album drops. Invite-only desks; Next.js on Railway.",
+      "tags": [
+        "web",
+        "music",
+        "nextjs"
+      ],
+      "href": "projects/picks.html",
+      "todos": []
+    },
+    {
+      "id": "remix-the-map",
+      "title": "Remix the Map",
+      "scale": "small",
+      "form": "WEBSITE",
+      "status": "active",
+      "progress": 100,
+      "started": "2026-07-31",
+      "ended": "2026-08-01",
+      "members": [
+        "Youwen Zhang"
+      ],
+      "brief": "Anonymous emotion map (QTM remix): map site for text, sound, and photos at places → moderate → live on OpenFreeMap + Amap; Supabase + Cloudflare Pages.",
+      "tags": [
+        "web",
+        "map",
+        "supabase"
+      ],
+      "href": "projects/remix-the-map.html",
+      "todos": []
+    },
+    {
+      "id": "tanjie-yongping",
+      "title": "Tan Jie · Yongping Rd",
+      "scale": "large",
+      "form": "FIELDWORK + INTERACTIVE HARDWARE + SOFTWARE",
+      "status": "cold",
+      "progress": 35,
+      "started": "2026-01-10",
+      "ended": null,
+      "members": [
+        "Youwen Zhang",
+        "Yuyan Deng",
+        "Xiao Peng",
+        "Wenxi Fan",
+        "Qingxian Yu",
+        "Yan Shu",
+        "Jie Wu",
+        "Yingyue Tan",
+        "Yuxing Liang",
+        "Hanfeng Huang"
+      ],
+      "brief": "Campus-adjacent third-space co-creation: NFC community platform on Yongping Rd — shop guide, place memory, commons. Went cold.",
+      "tags": [
+        "community",
+        "nfc",
+        "fieldwork"
+      ],
+      "href": "projects/tanjie.html",
+      "todos": []
+    }
+  ]
+}
