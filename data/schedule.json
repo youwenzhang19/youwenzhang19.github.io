@@ -2,10 +2,10 @@
   "updated": "2026-09-20",
   "timezone": "Asia/Shanghai",
   "window": [
-    "2026-09-20",
     "2026-09-21",
     "2026-09-22",
-    "2026-09-23"
+    "2026-09-23",
+    "2026-09-24"
   ],
   "apple_calendar": {
     "enabled": false,
@@ -13,78 +13,6 @@
     "note": "Apple Calendar → Share → Public Calendar → paste ICS URL into ics_url and set enabled: true."
   },
   "todos": [
-    {
-      "id": "s1",
-      "date": "2026-09-20",
-      "text": "Galactic Physics L2",
-      "time": "2026-09-20T12:55:00",
-      "end": "2026-09-20T15:40:00",
-      "source": "lesson",
-      "done": false,
-      "priority": 1
-    },
-    {
-      "id": "s2",
-      "date": "2026-09-20",
-      "text": "Astronomy Museum internship",
-      "time": null,
-      "end": null,
-      "source": "manual",
-      "done": false,
-      "priority": 2
-    },
-    {
-      "id": "s2a",
-      "date": "2026-09-20",
-      "text": "Advanced Professional Seminar — HW1",
-      "time": null,
-      "end": null,
-      "source": "lesson",
-      "done": false,
-      "priority": 3
-    },
-    {
-      "id": "s2b",
-      "date": "2026-09-20",
-      "text": "Philosophy of Science — course reading (paper)",
-      "time": null,
-      "end": null,
-      "source": "lesson",
-      "done": false,
-      "priority": 3
-    },
-    {
-      "id": "s2c",
-      "date": "2026-09-20",
-      "text": "Philosophy of Science — Thinking Question 1",
-      "time": null,
-      "end": null,
-      "source": "lesson",
-      "done": false,
-      "priority": 3
-    },
-    {
-      "id": "s2d",
-      "date": "2026-09-20",
-      "text": "Homepage calendar — manual update",
-      "time": null,
-      "end": null,
-      "source": "project",
-      "ref": "schedule",
-      "done": false,
-      "priority": 2
-    },
-    {
-      "id": "s2e",
-      "date": "2026-09-20",
-      "text": "SJTU Course OS — push project forward",
-      "time": null,
-      "end": null,
-      "source": "project",
-      "ref": "projects/sjtu-course-os.html",
-      "done": false,
-      "priority": 2
-    },
     {
       "id": "s3",
       "date": "2026-09-21",
@@ -104,6 +32,36 @@
       "source": "lesson",
       "done": false,
       "priority": 1
+    },
+    {
+      "id": "s2b",
+      "date": "2026-09-21",
+      "text": "Philosophy of Science — course reading (paper)",
+      "time": null,
+      "end": null,
+      "source": "lesson",
+      "done": false,
+      "priority": 3
+    },
+    {
+      "id": "s2c",
+      "date": "2026-09-21",
+      "text": "Philosophy of Science — Thinking Question 1",
+      "time": null,
+      "end": null,
+      "source": "lesson",
+      "done": false,
+      "priority": 3
+    },
+    {
+      "id": "s10",
+      "date": "2026-09-21",
+      "text": "回看热力学统计L2",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 3
     },
     {
       "id": "s5",
@@ -136,12 +94,32 @@
       "priority": 1
     },
     {
+      "id": "s11",
+      "date": "2026-09-22",
+      "text": "搞明白双星中原行星盘的模型和行星形成模型",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 3
+    },
+    {
       "id": "s8",
       "date": "2026-09-23",
       "text": "[Lecture] Light, telescopes, radio wavelengths",
       "time": "2026-09-23T16:00:00",
       "end": "2026-09-23T17:30:00",
       "source": "lesson",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s12",
+      "date": "2026-09-23",
+      "text": "ICF 研讨选题说明会",
+      "time": "2026-09-23T19:00:00",
+      "end": "2026-09-23T21:00:00",
+      "source": "manual",
       "done": false,
       "priority": 1
     },
@@ -154,6 +132,26 @@
       "source": "manual",
       "done": false,
       "priority": 2
+    },
+    {
+      "id": "s13",
+      "date": "2026-09-24",
+      "text": "热力学统计物理L4",
+      "time": "2026-09-24T10:00:00",
+      "end": "2026-09-24T11:40:00",
+      "source": "lesson",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s14",
+      "date": "2026-09-24",
+      "text": "[Lecture] mm/sub-mm/far-infrared, near-infrared/optical/ultraviolet wavelengths ； X-ray/gamma-ray",
+      "time": "2026-09-24T15:00:00",
+      "end": "2026-09-24T17:45:00",
+      "source": "lesson",
+      "done": false,
+      "priority": 1
     }
   ]
 }

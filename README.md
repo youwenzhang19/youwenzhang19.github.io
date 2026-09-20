@@ -25,11 +25,57 @@ assets/ref/         # design references (not linked)
 css/ js/ fonts/
 ```
 
-## Deploy
+## Deploy / git 更新流程
 
-GitHub Pages (same pattern as [donglai6.github.io](https://donglai6.github.io/)):
+GitHub Pages：推 `main` 根目录即上线（无 build）。
 
 - Repo: `youwenzhang19/youwenzhang19.github.io`
 - Site: https://youwenzhang19.github.io/
-- Build command: (none) — publish from `main` / root
-- Calendar window is **manual**: edit `data/schedule.json` → `window`.
+- 必须用 **youwenzhang19** 账号推送（不要用其他 GitHub 账号的钥匙串 token）
+- GitHub **不再接受账户密码**做 `git push`；用 `gh` 登录或 PAT
+
+### 一、首次 / 换绑账号（只需做一次）
+
+在本机终端（不要整段带 `#` 注释粘贴）：
+
+```bash
+cd "/Users/zhangyouwen/我的云端硬盘/WORKSPACE_PROJECT/homepage"
+./scripts/gh-login.sh
+```
+
+按提示用浏览器登录 **youwenzhang19**。若选 token：到
+https://github.com/settings/tokens 新建 classic token（勾选 `repo`）。
+
+### 二、日常更新上线
+
+```bash
+cd "/Users/zhangyouwen/我的云端硬盘/WORKSPACE_PROJECT/homepage"
+./serve.sh   # 可选：本地预览 http://127.0.0.1:8765/
+./scripts/publish.sh -m "简述这次改了什么"
+```
+
+只检查账号与状态、不推送：
+
+```bash
+./scripts/publish.sh --dry-run
+```
+
+已手动 `git commit` 过、只缺 push：
+
+```bash
+./scripts/publish.sh
+```
+
+### 三、手动等价流程
+
+```bash
+git status
+git add -A
+git commit -m "message"
+git push -u origin main
+```
+
+若报 `denied to Stardust-charlie` 或 `Password authentication is not supported`：
+重新跑 `./scripts/gh-login.sh`（会清掉旧钥匙串里的 github.com HTTPS 凭据）。
+
+日历窗口是手动维护的：编辑 `data/schedule.json` → `window`。
