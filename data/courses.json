@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19",
+  "updated": "2026-09-20",
   "sources": {
     "notes": ["Feishu transcription → local", "MarginNote (problem sets)"],
     "materials": ["iCloud", "SJTU Canvas", "SJTU cloud (past slides)"]
@@ -28,7 +28,14 @@
       "href": "courses/galactic-physics.html",
       "score": { "current": null, "components": [] },
       "homework": [],
-      "sessions": []
+      "sessions": [
+        {
+          "id": "l1",
+          "title": "L1 Review",
+          "date": "2026-09-20",
+          "note": "Raw review notes archived on course page (Simple picture / MW overview / 7 questions)."
+        }
+      ]
     },
     {
       "id": "thermodynamics-and-statistical-physics",
