@@ -56,7 +56,7 @@
     {
       "id": "s10",
       "date": "2026-09-21",
-      "text": "回看热力学统计L2",
+      "text": "Review Thermodynamics and Statistical Physics L2",
       "time": null,
       "end": null,
       "source": "manual",
@@ -96,7 +96,7 @@
     {
       "id": "s11",
       "date": "2026-09-22",
-      "text": "搞明白双星中原行星盘的模型和行星形成模型",
+      "text": "Figure out protoplanetary disk models in binary systems and planet formation models",
       "time": null,
       "end": null,
       "source": "manual",
@@ -116,7 +116,7 @@
     {
       "id": "s12",
       "date": "2026-09-23",
-      "text": "ICF 研讨选题说明会",
+      "text": "ICF seminar topic briefing",
       "time": "2026-09-23T19:00:00",
       "end": "2026-09-23T21:00:00",
       "source": "manual",
@@ -136,7 +136,7 @@
     {
       "id": "s13",
       "date": "2026-09-24",
-      "text": "热力学统计物理L4",
+      "text": "Thermodynamics and Statistical Physics L4",
       "time": "2026-09-24T10:00:00",
       "end": "2026-09-24T11:40:00",
       "source": "lesson",
@@ -146,7 +146,7 @@
     {
       "id": "s14",
       "date": "2026-09-24",
-      "text": "[Lecture] mm/sub-mm/far-infrared, near-infrared/optical/ultraviolet wavelengths ； X-ray/gamma-ray",
+      "text": "[Lecture] mm/sub-mm/far-infrared, near-infrared/optical/ultraviolet wavelengths; X-ray/gamma-ray",
       "time": "2026-09-24T15:00:00",
       "end": "2026-09-24T17:45:00",
       "source": "lesson",
