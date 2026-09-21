@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20",
+  "updated": "2026-09-21",
   "sources": {
     "notes": ["Feishu transcription → local", "MarginNote (problem sets)"],
     "materials": ["iCloud", "SJTU Canvas", "SJTU cloud (past slides)"]
@@ -17,7 +17,14 @@
         { "id": "reading", "title": "Course reading (paper)", "due": null, "submitted": false, "score": null, "note": "" },
         { "id": "tq1", "title": "Thinking Question 1", "due": null, "submitted": false, "score": null, "note": "" }
       ],
-      "sessions": []
+      "sessions": [
+        {
+          "id": "l1",
+          "title": "L1 Review",
+          "date": "2026-09-21",
+          "note": "Raw review notes on course page (科学/哲学/科学哲学；基本问题；历史发展；?QUESTION?)."
+        }
+      ]
     },
     {
       "id": "galactic-physics",
