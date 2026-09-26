@@ -16,7 +16,7 @@
     {
       "id": "s25",
       "date": "2026-09-26",
-      "text": "天文馆实习",
+      "text": "Astronomy Museum internship",
       "time": null,
       "end": null,
       "source": "manual",
@@ -26,7 +26,7 @@
     {
       "id": "s26",
       "date": "2026-09-26",
-      "text": "Intern：Make LSST demo for Shanghai Astronomy Museum internship",
+      "text": "Intern: Make LSST demo for Shanghai Astronomy Museum internship",
       "time": null,
       "end": null,
       "source": "manual",
@@ -36,7 +36,7 @@
     {
       "id": "s27",
       "date": "2026-09-26",
-      "text": "科研：总结周一和Dong Lai的聊天",
+      "text": "Research: Summarize Monday chat with Dong Lai",
       "time": null,
       "end": null,
       "source": "manual",
@@ -46,7 +46,7 @@
     {
       "id": "s28",
       "date": "2026-09-26",
-      "text": "Decision：高级专业研修课选题",
+      "text": "Decision: Advanced professional research seminar topic choice",
       "time": null,
       "end": null,
       "source": "manual",
@@ -56,7 +56,7 @@
     {
       "id": "s29",
       "date": "2026-09-27",
-      "text": "天文馆实习报到",
+      "text": "Astronomy Museum internship check-in",
       "time": "2026-09-27T09:00:00",
       "end": null,
       "source": "manual",
@@ -66,7 +66,7 @@
     {
       "id": "s30",
       "date": "2026-09-27",
-      "text": "Review：科学哲学L2",
+      "text": "Review: Philosophy of Science L2",
       "time": null,
       "end": null,
       "source": "manual",
@@ -76,7 +76,7 @@
     {
       "id": "s31",
       "date": "2026-09-27",
-      "text": "Reading：Dong Lai推荐的两篇论文",
+      "text": "Reading: two papers recommended by Dong Lai",
       "time": null,
       "end": null,
       "source": "manual",
@@ -86,7 +86,7 @@
     {
       "id": "s32",
       "date": "2026-09-27",
-      "text": "Reading: 科学哲学阅读材料、思考题",
+      "text": "Reading: Philosophy of Science materials and thinking questions",
       "time": null,
       "end": null,
       "source": "manual",
@@ -96,7 +96,7 @@
     {
       "id": "s33",
       "date": "2026-09-28",
-      "text": "高级专业研修课L3",
+      "text": "Advanced professional research seminar L3",
       "time": "2026-09-28T14:00:00",
       "end": "2026-09-28T16:45:00",
       "source": "lesson",
@@ -106,7 +106,7 @@
     {
       "id": "s34",
       "date": "2026-09-28",
-      "text": "科学哲学L3",
+      "text": "Philosophy of Science L3",
       "time": "2026-09-28T18:00:00",
       "end": "2026-09-28T20:20:00",
       "source": "lesson",
@@ -116,7 +116,7 @@
     {
       "id": "s35",
       "date": "2026-09-29",
-      "text": "热力学与统计物理L5",
+      "text": "Thermodynamics and Statistical Physics L5",
       "time": "2026-09-29T10:00:00",
       "end": "2026-09-29T11:40:00",
       "source": "lesson",
@@ -126,7 +126,7 @@
     {
       "id": "s36",
       "date": "2026-09-29",
-      "text": "Intern：Make LSST demo for Shanghai Astronomy Museum internship",
+      "text": "Intern: Make LSST demo for Shanghai Astronomy Museum internship",
       "time": null,
       "end": null,
       "source": "manual",
@@ -136,7 +136,7 @@
     {
       "id": "s37",
       "date": "2026-09-29",
-      "text": "科研：构建基础解析模型，研究代码",
+      "text": "Research: Build basic analytical model; study code",
       "time": null,
       "end": null,
       "source": "manual",
@@ -146,7 +146,7 @@
     {
       "id": "s38",
       "date": "2026-09-29",
-      "text": "[Lecture] Science Should be Funny （Online）",
+      "text": "[Lecture] Science Should be Funny (Online)",
       "time": "2026-09-29T16:00:00",
       "end": "2026-09-29T18:00:00",
       "source": "lesson",
