@@ -94,6 +94,16 @@
       "priority": 3
     },
     {
+      "id": "s39",
+      "date": "2026-09-28",
+      "text": "Complete Advanced professional research seminar HW2",
+      "time": "2026-09-28T09:00:00",
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
       "id": "s33",
       "date": "2026-09-28",
       "text": "Advanced professional research seminar L3",
