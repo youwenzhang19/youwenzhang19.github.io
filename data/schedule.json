@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-22",
+  "updated": "2026-09-26",
   "timezone": "Asia/Shanghai",
   "window": [
-    "2026-09-22",
-    "2026-09-23",
-    "2026-09-24",
-    "2026-09-25"
+    "2026-09-26",
+    "2026-09-27",
+    "2026-09-28",
+    "2026-09-29"
   ],
   "apple_calendar": {
     "enabled": false,
@@ -14,39 +14,29 @@
   },
   "todos": [
     {
-      "id": "s5",
-      "date": "2026-09-22",
-      "text": "Thermodynamics and Statistical Physics L2",
-      "time": "2026-09-22T10:00:00",
-      "end": "2026-09-22T11:40:00",
-      "source": "lesson",
+      "id": "s25",
+      "date": "2026-09-26",
+      "text": "天文馆实习",
+      "time": null,
+      "end": null,
+      "source": "manual",
       "done": false,
-      "priority": 1
+      "priority": 2
     },
     {
-      "id": "s6",
-      "date": "2026-09-22",
-      "text": "Basic Theory of Marxism L2",
-      "time": "2026-09-22T12:55:00",
-      "end": "2026-09-22T15:40:00",
-      "source": "lesson",
+      "id": "s26",
+      "date": "2026-09-26",
+      "text": "Intern：Make LSST demo for Shanghai Astronomy Museum internship",
+      "time": null,
+      "end": null,
+      "source": "manual",
       "done": false,
-      "priority": 1
+      "priority": 2
     },
     {
-      "id": "s7",
-      "date": "2026-09-22",
-      "text": "Creative Design for Graphic L2",
-      "time": "2026-09-22T18:00:00",
-      "end": "2026-09-22T20:20:00",
-      "source": "lesson",
-      "done": false,
-      "priority": 1
-    },
-    {
-      "id": "s11",
-      "date": "2026-09-22",
-      "text": "Figure out protoplanetary disk models in binary systems and planet formation models",
+      "id": "s27",
+      "date": "2026-09-26",
+      "text": "科研：总结周一和Dong Lai的聊天",
       "time": null,
       "end": null,
       "source": "manual",
@@ -54,39 +44,29 @@
       "priority": 3
     },
     {
-      "id": "s8",
-      "date": "2026-09-23",
-      "text": "[Lecture] Light, telescopes, radio wavelengths",
-      "time": "2026-09-23T16:00:00",
-      "end": "2026-09-23T17:30:00",
-      "source": "lesson",
-      "done": false,
-      "priority": 1
-    },
-    {
-      "id": "s12",
-      "date": "2026-09-23",
-      "text": "ICF seminar topic briefing",
-      "time": "2026-09-23T19:00:00",
-      "end": "2026-09-23T21:00:00",
-      "source": "manual",
-      "done": false,
-      "priority": 1
-    },
-    {
-      "id": "s9",
-      "date": "2026-09-23",
-      "text": "Astronomy Museum internship",
+      "id": "s28",
+      "date": "2026-09-26",
+      "text": "Decision：高级专业研修课选题",
       "time": null,
       "end": null,
       "source": "manual",
       "done": false,
-      "priority": 2
+      "priority": 1
     },
     {
-      "id": "s15",
-      "date": "2026-09-23",
-      "text": "Review Thermodynamics and Statistical Physics L3/L4",
+      "id": "s29",
+      "date": "2026-09-27",
+      "text": "天文馆实习报到",
+      "time": "2026-09-27T09:00:00",
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s30",
+      "date": "2026-09-27",
+      "text": "Review：科学哲学L2",
       "time": null,
       "end": null,
       "source": "manual",
@@ -94,9 +74,9 @@
       "priority": 3
     },
     {
-      "id": "s16",
-      "date": "2026-09-23",
-      "text": "Reading: protoplanetary disk models in binary systems and planet formation models",
+      "id": "s31",
+      "date": "2026-09-27",
+      "text": "Reading：Dong Lai推荐的两篇论文",
       "time": null,
       "end": null,
       "source": "manual",
@@ -104,69 +84,9 @@
       "priority": 3
     },
     {
-      "id": "s17",
-      "date": "2026-09-23",
-      "text": "525 Street Dance open class: Breaking",
-      "time": "2026-09-23T19:00:00",
-      "end": "2026-09-23T20:00:00",
-      "source": "manual",
-      "done": false,
-      "priority": 2
-    },
-    {
-      "id": "s18",
-      "date": "2026-09-23",
-      "text": "525 Street Dance open class: Hiphop",
-      "time": "2026-09-23T21:00:00",
-      "end": "2026-09-23T22:00:00",
-      "source": "manual",
-      "done": false,
-      "priority": 2
-    },
-    {
-      "id": "s13",
-      "date": "2026-09-24",
-      "text": "Thermodynamics and Statistical Physics L4",
-      "time": "2026-09-24T10:00:00",
-      "end": "2026-09-24T11:40:00",
-      "source": "lesson",
-      "done": false,
-      "priority": 1
-    },
-    {
-      "id": "s19",
-      "date": "2026-09-24",
-      "text": "Morning Talk with Prof. Dong Lai @TDLI",
-      "time": null,
-      "end": null,
-      "source": "manual",
-      "done": false,
-      "priority": 1
-    },
-    {
-      "id": "s14",
-      "date": "2026-09-24",
-      "text": "[Lecture] mm/sub-mm/far-infrared, near-infrared/optical/ultraviolet wavelengths; X-ray/gamma-ray",
-      "time": "2026-09-24T15:00:00",
-      "end": "2026-09-24T17:45:00",
-      "source": "lesson",
-      "done": false,
-      "priority": 1
-    },
-    {
-      "id": "s20",
-      "date": "2026-09-24",
-      "text": "525 Street Dance open class: House",
-      "time": "2026-09-24T21:00:00",
-      "end": "2026-09-24T22:00:00",
-      "source": "manual",
-      "done": false,
-      "priority": 2
-    },
-    {
-      "id": "s21",
-      "date": "2026-09-24",
-      "text": "Review all courses",
+      "id": "s32",
+      "date": "2026-09-27",
+      "text": "Reading: 科学哲学阅读材料、思考题",
       "time": null,
       "end": null,
       "source": "manual",
@@ -174,9 +94,39 @@
       "priority": 3
     },
     {
-      "id": "s22",
-      "date": "2026-09-25",
-      "text": "HW for all courses",
+      "id": "s33",
+      "date": "2026-09-28",
+      "text": "高级专业研修课L3",
+      "time": "2026-09-28T14:00:00",
+      "end": "2026-09-28T16:45:00",
+      "source": "lesson",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s34",
+      "date": "2026-09-28",
+      "text": "科学哲学L3",
+      "time": "2026-09-28T18:00:00",
+      "end": "2026-09-28T20:20:00",
+      "source": "lesson",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s35",
+      "date": "2026-09-29",
+      "text": "热力学与统计物理L5",
+      "time": "2026-09-29T10:00:00",
+      "end": "2026-09-29T11:40:00",
+      "source": "lesson",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s36",
+      "date": "2026-09-29",
+      "text": "Intern：Make LSST demo for Shanghai Astronomy Museum internship",
       "time": null,
       "end": null,
       "source": "manual",
@@ -184,22 +134,22 @@
       "priority": 2
     },
     {
-      "id": "s23",
-      "date": "2026-09-25",
-      "text": "Make LSST demo for Shanghai Astronomy Museum internship",
+      "id": "s37",
+      "date": "2026-09-29",
+      "text": "科研：构建基础解析模型，研究代码",
       "time": null,
       "end": null,
       "source": "manual",
       "done": false,
-      "priority": 2
+      "priority": 3
     },
     {
-      "id": "s24",
-      "date": "2026-09-25",
-      "text": "Skateboard Club autumn carnival",
-      "time": "2026-09-25T17:00:00",
-      "end": "2026-09-25T20:30:00",
-      "source": "manual",
+      "id": "s38",
+      "date": "2026-09-29",
+      "text": "[Lecture] Science Should be Funny （Online）",
+      "time": "2026-09-29T16:00:00",
+      "end": "2026-09-29T18:00:00",
+      "source": "lesson",
       "done": false,
       "priority": 1
     }
