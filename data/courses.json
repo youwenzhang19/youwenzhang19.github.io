@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21",
+  "updated": "2026-09-28",
   "sources": {
     "notes": ["Feishu transcription → local", "MarginNote (problem sets)"],
     "materials": ["iCloud", "SJTU Canvas", "SJTU cloud (past slides)"]
@@ -23,6 +23,12 @@
           "title": "L1 Review",
           "date": "2026-09-21",
           "note": "Raw review notes on course page (科学/哲学/科学哲学；基本问题；历史发展；?QUESTION?)."
+        },
+        {
+          "id": "l2",
+          "title": "L2 van Fraassen — Pragmatics of Explanation",
+          "date": "2026-09-28",
+          "note": "Handout: courses/philosophy-of-science-l2-van-fraassen-handout.html (md source alongside). From asymmetry §III, pp. 166–192."
         }
       ]
     },
