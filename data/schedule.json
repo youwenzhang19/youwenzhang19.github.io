@@ -189,6 +189,16 @@
       "priority": 3
     },
     {
+      "id": "s69",
+      "date": "2026-09-30",
+      "text": "Sports rehab at Shanghai Sixth People's Hospital",
+      "time": "2026-09-30T15:00:00",
+      "end": "2026-09-30T16:00:00",
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
       "id": "s46",
       "date": "2026-10-01",
       "text": "Astronomy Museum internship",
@@ -232,6 +242,16 @@
       "id": "s50",
       "date": "2026-10-02",
       "text": "Reading: Philosophy of Science L3 materials & thinking questions",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 3
+    },
+    {
+      "id": "s70",
+      "date": "2026-10-02",
+      "text": "Walk Baguette at Xingxing's place",
       "time": null,
       "end": null,
       "source": "manual",
