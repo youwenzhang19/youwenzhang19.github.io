@@ -1,11 +1,16 @@
 {
-  "updated": "2026-09-26",
+  "updated": "2026-09-29",
   "timezone": "Asia/Shanghai",
   "window": [
-    "2026-09-26",
-    "2026-09-27",
-    "2026-09-28",
-    "2026-09-29"
+    "2026-09-29",
+    "2026-09-30",
+    "2026-10-01",
+    "2026-10-02",
+    "2026-10-03",
+    "2026-10-04",
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-07"
   ],
   "apple_calendar": {
     "enabled": false,
@@ -124,18 +129,38 @@
       "priority": 1
     },
     {
-      "id": "s35",
+      "id": "s40",
       "date": "2026-09-29",
-      "text": "Thermodynamics and Statistical Physics L5",
-      "time": "2026-09-29T10:00:00",
-      "end": "2026-09-29T11:40:00",
-      "source": "lesson",
+      "text": "Reading: two papers recommended by Dong Lai",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 3
+    },
+    {
+      "id": "s41",
+      "date": "2026-09-29",
+      "text": "Review: Lecture by Adrian Currie",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 3
+    },
+    {
+      "id": "s42",
+      "date": "2026-09-30",
+      "text": "Astronomy Museum internship",
+      "time": "2026-09-30T09:00:00",
+      "end": "2026-09-30T16:00:00",
+      "source": "manual",
       "done": false,
       "priority": 1
     },
     {
-      "id": "s36",
-      "date": "2026-09-29",
+      "id": "s43",
+      "date": "2026-09-30",
       "text": "Intern: Make LSST demo for Shanghai Astronomy Museum internship",
       "time": null,
       "end": null,
@@ -144,9 +169,9 @@
       "priority": 2
     },
     {
-      "id": "s37",
-      "date": "2026-09-29",
-      "text": "Research: Build basic analytical model; study code",
+      "id": "s44",
+      "date": "2026-09-30",
+      "text": "Reading: two papers recommended by Dong Lai",
       "time": null,
       "end": null,
       "source": "manual",
@@ -154,14 +179,244 @@
       "priority": 3
     },
     {
-      "id": "s38",
-      "date": "2026-09-29",
-      "text": "[Lecture] Science Should be Funny (Online)",
-      "time": "2026-09-29T16:00:00",
-      "end": "2026-09-29T18:00:00",
-      "source": "lesson",
+      "id": "s45",
+      "date": "2026-09-30",
+      "text": "Review: Philosophy of Science L2, L3",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 3
+    },
+    {
+      "id": "s46",
+      "date": "2026-10-01",
+      "text": "Astronomy Museum internship",
+      "time": "2026-10-01T09:00:00",
+      "end": "2026-10-01T16:00:00",
+      "source": "manual",
       "done": false,
       "priority": 1
+    },
+    {
+      "id": "s47",
+      "date": "2026-10-01",
+      "text": "Planetesimal Impact Research: Build basic analytical model; study code",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s48",
+      "date": "2026-10-01",
+      "text": "Reading: Fluid Dynamics part in Modern Classical Physics",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 3
+    },
+    {
+      "id": "s49",
+      "date": "2026-10-01",
+      "text": "Plan Skate Club Halloween Anniversary",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 3
+    },
+    {
+      "id": "s50",
+      "date": "2026-10-02",
+      "text": "Reading: Philosophy of Science L3 materials & thinking questions",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 3
+    },
+    {
+      "id": "s51",
+      "date": "2026-10-03",
+      "text": "Astronomy Museum internship",
+      "time": "2026-10-03T09:00:00",
+      "end": "2026-10-03T16:00:00",
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s52",
+      "date": "2026-10-03",
+      "text": "Planetesimal Impact Research",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s53",
+      "date": "2026-10-03",
+      "text": "Review: Thermal and Statistical Physics L2, L3",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 3
+    },
+    {
+      "id": "s54",
+      "date": "2026-10-03",
+      "text": "Review: Galaxy Physics L2; Philosophy of Science L3",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 3
+    },
+    {
+      "id": "s55",
+      "date": "2026-10-04",
+      "text": "Astronomy Museum internship",
+      "time": "2026-10-04T09:00:00",
+      "end": "2026-10-04T16:00:00",
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s56",
+      "date": "2026-10-04",
+      "text": "Planetesimal Impact Research",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s57",
+      "date": "2026-10-04",
+      "text": "Review: Thermal and Statistical Physics L4, L5",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 3
+    },
+    {
+      "id": "s58",
+      "date": "2026-10-04",
+      "text": "Reading: Fluid Dynamics part in Modern Classical Physics",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 3
+    },
+    {
+      "id": "s59",
+      "date": "2026-10-05",
+      "text": "Astronomy Museum internship",
+      "time": "2026-10-05T09:00:00",
+      "end": "2026-10-05T16:00:00",
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s60",
+      "date": "2026-10-05",
+      "text": "Planetesimal Impact Research",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s61",
+      "date": "2026-10-05",
+      "text": "Review: Thermal and Statistical Physics",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 3
+    },
+    {
+      "id": "s62",
+      "date": "2026-10-05",
+      "text": "HW: Thermal and Statistical Physics HW1",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s63",
+      "date": "2026-10-05",
+      "text": "HW: Galaxy Physics HW1, HW2",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s64",
+      "date": "2026-10-06",
+      "text": "Astronomy Museum internship",
+      "time": "2026-10-06T09:00:00",
+      "end": "2026-10-06T16:00:00",
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s65",
+      "date": "2026-10-06",
+      "text": "Planetesimal Impact Research",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s66",
+      "date": "2026-10-06",
+      "text": "Prep: make galaxy-physics paper presentation",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s67",
+      "date": "2026-10-07",
+      "text": "Astronomy Museum internship",
+      "time": "2026-10-07T09:00:00",
+      "end": "2026-10-07T16:00:00",
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s68",
+      "date": "2026-10-07",
+      "text": "Planetesimal Impact Research",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
     }
   ]
 }
