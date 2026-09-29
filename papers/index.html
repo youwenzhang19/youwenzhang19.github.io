@@ -19,7 +19,7 @@
   <script type="module">
     import { loadJSON, formatDay } from "../js/lib.js?v=7";
 
-    const data = await loadJSON("../data/papers.json?v=2");
+    const data = await loadJSON("../data/papers.json?v=3");
     const groups = (data.groups || []).slice().sort((a, b) =>
       String(b.date).localeCompare(String(a.date))
     );

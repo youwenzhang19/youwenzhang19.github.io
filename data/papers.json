@@ -1,7 +1,42 @@
 {
-  "updated": "2026-09-20",
+  "updated": "2026-09-29",
   "note": "Papers I’m reading / following. Edit this file manually.",
   "groups": [
+    {
+      "date": "2026-09-29",
+      "papers": [
+        {
+          "title": "Atmospheric Erosion by Giant Impacts onto Terrestrial Planets: A Scaling Law for any Speed, Angle, Mass, and Density",
+          "authors": "J. A. Kegerreis, V. R. Eke, D. C. Catling, R. J. Massey, L. F. A. Teodoro, K. J. Zahnle",
+          "href": "./Kegerreis_2020_ApJL_901_L31.pdf",
+          "note": "ApJL 901 L31 (2020)"
+        },
+        {
+          "title": "Giant Planet Engulfment by Evolved Giant Stars: Light Curves, Asteroseismology, and Survivability",
+          "authors": "Christopher E. O’Connor, Lars Bildsten, Matteo Cantiello, Dong Lai",
+          "href": "./OConnor_2023_ApJ_950_128.pdf",
+          "note": "ApJ 950 128 (2023)"
+        },
+        {
+          "title": "Engulfment of Eccentric Planets by Giant Stars: Hydrodynamics and Light Curves",
+          "authors": "Mengqi Yang, Dong Lai, Fuyuan Wu, Jie Zhang",
+          "href": "./Yang_2026_ApJ_998_118.pdf",
+          "note": "ApJ 998 118 (2026)"
+        },
+        {
+          "title": "物理定律是如何撒谎的",
+          "authors": "卡特赖特 (Nancy Cartwright)",
+          "href": "./卡特赖特_物理定律是如何撒谎的.pdf",
+          "note": ""
+        },
+        {
+          "title": "科学说明",
+          "authors": "范弗拉森 (Bas C. van Fraassen)",
+          "href": "./范弗拉森_科学说明.pdf",
+          "note": ""
+        }
+      ]
+    },
     {
       "date": "2026-09-20",
       "papers": [
