@@ -35,12 +35,24 @@
           "title": "L3 Cartwright — How the Laws of Physics Lie",
           "date": "2026-09-28",
           "note": "Handout: courses/philosophy-of-science-l3-cartwright-handout.html (md source alongside). Ch. 3 Do the Laws of Physics State the Facts?, Chinese tr. pp. 38–51."
-        },
+        }
+      ]
+    },
+    {
+      "id": "lecture",
+      "code": "",
+      "title": "Lecture",
+      "term": "2026 Fall",
+      "status": "active",
+      "href": "courses/lecture.html",
+      "score": { "current": null, "components": [] },
+      "homework": [],
+      "sessions": [
         {
-          "id": "guest-currie-2026-09-29",
+          "id": "adrian-currie-science-should-be-funny",
           "title": "Adrian Currie — Science Should Be Funny",
           "date": "2026-09-29",
-          "note": "Guest lecture — primary home under Lecture: lecture/adrian-currie-science-should-be-funny.html (also listed on lecture/index.html)."
+          "note": "Handout: courses/lecture-adrian-currie-science-should-be-funny.html (md source alongside). Standalone Lecture track — not part of Philosophy of Science."
         }
       ]
     },

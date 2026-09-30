@@ -1,5 +1,6 @@
 {
   "updated": "2026-09-30",
+  "note": "Lecture is a course-level track under Lessons (see data/courses.json id=lecture). This file lists sessions for convenience.",
   "lectures": [
     {
       "id": "adrian-currie-science-should-be-funny",
@@ -7,9 +8,10 @@
       "date": "2026-09-29",
       "speaker": "Adrian Currie (University of Exeter)",
       "host": "CWB 大科哲 · hybrid (HKUST Clear Water Bay + Zoom)",
-      "href": "lecture/adrian-currie-science-should-be-funny.html",
-      "md": "lecture/adrian-currie-science-should-be-funny.md",
-      "note": "Humor as an epistemic tool for creative science — revelation, serious play, TE form, mirth."
+      "href": "courses/lecture-adrian-currie-science-should-be-funny.html",
+      "md": "courses/lecture-adrian-currie-science-should-be-funny.md",
+      "course": "lecture",
+      "note": "Humor as an epistemic tool for creative science — revelation, serious play, TE form, mirth. Independent Lecture track (not Philosophy of Science)."
     }
   ]
 }
