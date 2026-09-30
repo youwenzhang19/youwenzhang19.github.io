@@ -391,3 +391,9 @@ table.plain th {
   padding-left: 1em;
   white-space: pre-wrap;
 }
+.note-md blockquote {
+  margin: 0.6em 0 0.8em;
+  padding: 0.35em 0 0.35em 0.9em;
+  border-left: 3px solid var(--mute);
+  color: var(--dusk);
+}

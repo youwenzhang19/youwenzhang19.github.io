@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28",
+  "updated": "2026-09-30",
   "sources": {
     "notes": ["Feishu transcription → local", "MarginNote (problem sets)"],
     "materials": ["iCloud", "SJTU Canvas", "SJTU cloud (past slides)"]
@@ -35,6 +35,12 @@
           "title": "L3 Cartwright — How the Laws of Physics Lie",
           "date": "2026-09-28",
           "note": "Handout: courses/philosophy-of-science-l3-cartwright-handout.html (md source alongside). Ch. 3 Do the Laws of Physics State the Facts?, Chinese tr. pp. 38–51."
+        },
+        {
+          "id": "guest-currie-2026-09-29",
+          "title": "Adrian Currie — Science Should Be Funny",
+          "date": "2026-09-29",
+          "note": "Guest lecture handout: courses/philosophy-of-science-adrian-currie-handout.html (md source alongside). Humor as epistemic tool for creative science."
         }
       ]
     },

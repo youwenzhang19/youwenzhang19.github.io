@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29",
+  "updated": "2026-09-30",
   "timezone": "Asia/Shanghai",
   "window": [
     "2026-09-29",
@@ -145,7 +145,7 @@
       "time": null,
       "end": null,
       "source": "manual",
-      "done": false,
+      "done": true,
       "priority": 3
     },
     {
@@ -155,7 +155,7 @@
       "time": "2026-09-30T09:00:00",
       "end": "2026-09-30T16:00:00",
       "source": "manual",
-      "done": false,
+      "done": true,
       "priority": 1
     },
     {
@@ -165,7 +165,7 @@
       "time": null,
       "end": null,
       "source": "manual",
-      "done": false,
+      "done": true,
       "priority": 2
     },
     {
@@ -195,7 +195,7 @@
       "time": "2026-09-30T15:00:00",
       "end": "2026-09-30T16:00:00",
       "source": "manual",
-      "done": false,
+      "done": true,
       "priority": 1
     },
     {
@@ -389,6 +389,16 @@
       "priority": 2
     },
     {
+      "id": "s71",
+      "date": "2026-10-05",
+      "text": "Contest: GOSIM 2026 Agentic Observer Hackathon (online)",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
       "id": "s64",
       "date": "2026-10-06",
       "text": "Astronomy Museum internship",
@@ -419,6 +429,16 @@
       "priority": 2
     },
     {
+      "id": "s72",
+      "date": "2026-10-06",
+      "text": "Contest: GOSIM 2026 Agentic Observer Hackathon (online)",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
       "id": "s67",
       "date": "2026-10-07",
       "text": "Astronomy Museum internship",
@@ -432,6 +452,16 @@
       "id": "s68",
       "date": "2026-10-07",
       "text": "Planetesimal Impact Research",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s73",
+      "date": "2026-10-07",
+      "text": "Contest: GOSIM 2026 Agentic Observer Hackathon (online)",
       "time": null,
       "end": null,
       "source": "manual",
