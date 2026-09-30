@@ -1,6 +1,6 @@
 # Youwen Zhang's Home Page
 
-Static personal site: projects / courses / calendar / music / life.
+Static personal site: projects / courses / lecture / calendar / music / life.
 
 ## Local
 
@@ -16,7 +16,8 @@ index.html          # hub
 schedule/           # calendar (manual window in data/schedule.json)
 papers/             # reading list (manual in data/papers.json)
 projects/           # project pages
-courses/            # course pages
+courses/            # course pages (Lessons.)
+lecture/            # guest / standalone lectures (Lecture.)
 music/              # music notes
 life/               # life notes
 data/               # JSON + calendar.ics
