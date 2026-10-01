@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30",
+  "updated": "2026-10-01",
   "timezone": "Asia/Shanghai",
   "window": [
     "2026-09-29",
@@ -185,7 +185,7 @@
       "time": null,
       "end": null,
       "source": "manual",
-      "done": false,
+      "done": true,
       "priority": 3
     },
     {
@@ -209,8 +209,18 @@
       "priority": 1
     },
     {
-      "id": "s47",
+      "id": "s74",
       "date": "2026-10-01",
+      "text": "Reading: one Dong-assigned paper",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": true,
+      "priority": 3
+    },
+    {
+      "id": "s47",
+      "date": "2026-10-03",
       "text": "Planetesimal Impact Research: Build basic analytical model; study code",
       "time": null,
       "end": null,
@@ -220,7 +230,7 @@
     },
     {
       "id": "s48",
-      "date": "2026-10-01",
+      "date": "2026-10-03",
       "text": "Reading: Fluid Dynamics part in Modern Classical Physics",
       "time": null,
       "end": null,
@@ -230,7 +240,7 @@
     },
     {
       "id": "s49",
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "text": "Plan Skate Club Halloween Anniversary",
       "time": null,
       "end": null,
