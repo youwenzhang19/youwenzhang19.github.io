@@ -31,6 +31,12 @@
           "note": "Raw review notes inline on course page (same as L1; not folded). Permalink: courses/philosophy-of-science-l2-review.html (+ md). Topics: 预测/说明/理解; DN; ?QUESTION?."
         },
         {
+          "id": "l3-review",
+          "title": "L3 Review",
+          "date": "2026-09-28",
+          "note": "Raw review notes inline on course page (same as L1/L2; not folded). Permalink: courses/philosophy-of-science-l3-review.html (+ md). Topics: 因果性与自然规律; Kitcher 最佳系统; 共相; Cartwright 倾向性; ?QUESTION?."
+        },
+        {
           "id": "l2",
           "title": "L2 van Fraassen — Pragmatics of Explanation",
           "date": "2026-09-28",
