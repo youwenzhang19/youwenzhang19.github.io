@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30",
+  "updated": "2026-10-01",
   "sources": {
     "notes": ["Feishu transcription → local", "MarginNote (problem sets)"],
     "materials": ["iCloud", "SJTU Canvas", "SJTU cloud (past slides)"]
@@ -23,6 +23,12 @@
           "title": "L1 Review",
           "date": "2026-09-21",
           "note": "Raw review notes on course page (科学/哲学/科学哲学；基本问题；历史发展；?QUESTION?)."
+        },
+        {
+          "id": "l2-review",
+          "title": "L2 Review",
+          "date": "2026-09-21",
+          "note": "Review page: courses/philosophy-of-science-l2-review.html (md source alongside). Classroom outline 预测/说明/理解."
         },
         {
           "id": "l2",
