@@ -1,10 +1,7 @@
 {
-  "updated": "2026-10-01",
+  "updated": "2026-10-02",
   "timezone": "Asia/Shanghai",
   "window": [
-    "2026-09-29",
-    "2026-09-30",
-    "2026-10-01",
     "2026-10-02",
     "2026-10-03",
     "2026-10-04",
@@ -18,226 +15,6 @@
     "note": "Apple Calendar → Share → Public Calendar → paste ICS URL into ics_url and set enabled: true."
   },
   "todos": [
-    {
-      "id": "s25",
-      "date": "2026-09-26",
-      "text": "Astronomy Museum internship",
-      "time": null,
-      "end": null,
-      "source": "manual",
-      "done": false,
-      "priority": 2
-    },
-    {
-      "id": "s26",
-      "date": "2026-09-26",
-      "text": "Intern: Make LSST demo for Shanghai Astronomy Museum internship",
-      "time": null,
-      "end": null,
-      "source": "manual",
-      "done": false,
-      "priority": 2
-    },
-    {
-      "id": "s27",
-      "date": "2026-09-26",
-      "text": "Research: Summarize Monday chat with Dong Lai",
-      "time": null,
-      "end": null,
-      "source": "manual",
-      "done": true,
-      "priority": 3
-    },
-    {
-      "id": "s28",
-      "date": "2026-09-26",
-      "text": "Decision: Advanced professional research seminar topic choice",
-      "time": null,
-      "end": null,
-      "source": "manual",
-      "done": false,
-      "priority": 1
-    },
-    {
-      "id": "s29",
-      "date": "2026-09-27",
-      "text": "Astronomy Museum internship check-in",
-      "time": "2026-09-27T09:00:00",
-      "end": null,
-      "source": "manual",
-      "done": false,
-      "priority": 1
-    },
-    {
-      "id": "s30",
-      "date": "2026-09-27",
-      "text": "Review: Philosophy of Science L2",
-      "time": null,
-      "end": null,
-      "source": "manual",
-      "done": false,
-      "priority": 3
-    },
-    {
-      "id": "s31",
-      "date": "2026-09-27",
-      "text": "Reading: two papers recommended by Dong Lai",
-      "time": null,
-      "end": null,
-      "source": "manual",
-      "done": false,
-      "priority": 3
-    },
-    {
-      "id": "s32",
-      "date": "2026-09-27",
-      "text": "Reading: Philosophy of Science materials and thinking questions",
-      "time": null,
-      "end": null,
-      "source": "manual",
-      "done": false,
-      "priority": 3
-    },
-    {
-      "id": "s39",
-      "date": "2026-09-28",
-      "text": "Complete Advanced professional research seminar HW2",
-      "time": "2026-09-28T09:00:00",
-      "end": null,
-      "source": "manual",
-      "done": false,
-      "priority": 2
-    },
-    {
-      "id": "s33",
-      "date": "2026-09-28",
-      "text": "Advanced professional research seminar L3",
-      "time": "2026-09-28T14:00:00",
-      "end": "2026-09-28T16:45:00",
-      "source": "lesson",
-      "done": false,
-      "priority": 1
-    },
-    {
-      "id": "s34",
-      "date": "2026-09-28",
-      "text": "Philosophy of Science L3",
-      "time": "2026-09-28T18:00:00",
-      "end": "2026-09-28T20:20:00",
-      "source": "lesson",
-      "done": false,
-      "priority": 1
-    },
-    {
-      "id": "s40",
-      "date": "2026-09-29",
-      "text": "Reading: two papers recommended by Dong Lai",
-      "time": null,
-      "end": null,
-      "source": "manual",
-      "done": false,
-      "priority": 3
-    },
-    {
-      "id": "s41",
-      "date": "2026-09-29",
-      "text": "Review: Lecture by Adrian Currie",
-      "time": null,
-      "end": null,
-      "source": "manual",
-      "done": true,
-      "priority": 3
-    },
-    {
-      "id": "s42",
-      "date": "2026-09-30",
-      "text": "Astronomy Museum internship",
-      "time": "2026-09-30T09:00:00",
-      "end": "2026-09-30T16:00:00",
-      "source": "manual",
-      "done": true,
-      "priority": 1
-    },
-    {
-      "id": "s43",
-      "date": "2026-09-30",
-      "text": "Intern: Make LSST demo for Shanghai Astronomy Museum internship",
-      "time": null,
-      "end": null,
-      "source": "manual",
-      "done": true,
-      "priority": 2
-    },
-    {
-      "id": "s44",
-      "date": "2026-09-30",
-      "text": "Reading: Dong-assigned papers (3 remaining)",
-      "time": null,
-      "end": null,
-      "source": "manual",
-      "done": false,
-      "priority": 3
-    },
-    {
-      "id": "s45",
-      "date": "2026-09-30",
-      "text": "Review: Philosophy of Science L2, L3",
-      "time": null,
-      "end": null,
-      "source": "manual",
-      "done": true,
-      "priority": 3
-    },
-    {
-      "id": "s69",
-      "date": "2026-09-30",
-      "text": "Sports rehab at Shanghai Sixth People's Hospital",
-      "time": "2026-09-30T15:00:00",
-      "end": "2026-09-30T16:00:00",
-      "source": "manual",
-      "done": true,
-      "priority": 1
-    },
-    {
-      "id": "s46",
-      "date": "2026-10-01",
-      "text": "Astronomy Museum internship",
-      "time": "2026-10-01T09:00:00",
-      "end": "2026-10-01T16:00:00",
-      "source": "manual",
-      "done": false,
-      "priority": 1
-    },
-    {
-      "id": "s74",
-      "date": "2026-10-01",
-      "text": "Reading: Dong-assigned papers (1/4)",
-      "time": null,
-      "end": null,
-      "source": "manual",
-      "done": true,
-      "priority": 3
-    },
-    {
-      "id": "s47",
-      "date": "2026-10-03",
-      "text": "Planetesimal Impact Research: Build basic analytical model; study code",
-      "time": null,
-      "end": null,
-      "source": "manual",
-      "done": false,
-      "priority": 2
-    },
-    {
-      "id": "s48",
-      "date": "2026-10-03",
-      "text": "Reading: Fluid Dynamics part in Modern Classical Physics",
-      "time": null,
-      "end": null,
-      "source": "manual",
-      "done": false,
-      "priority": 3
-    },
     {
       "id": "s49",
       "date": "2026-10-02",
@@ -262,6 +39,36 @@
       "id": "s70",
       "date": "2026-10-02",
       "text": "Walk Baguette at Xingxing's place",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 3
+    },
+    {
+      "id": "s44",
+      "date": "2026-10-03",
+      "text": "Reading: Dong-assigned papers (3 remaining)",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 3
+    },
+    {
+      "id": "s47",
+      "date": "2026-10-03",
+      "text": "Planetesimal Impact Research: Build basic analytical model; study code",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s48",
+      "date": "2026-10-03",
+      "text": "Reading: Fluid Dynamics part in Modern Classical Physics",
       "time": null,
       "end": null,
       "source": "manual",
@@ -301,7 +108,7 @@
     {
       "id": "s54",
       "date": "2026-10-03",
-      "text": "Review: Galaxy Physics L2; Philosophy of Science L3",
+      "text": "Review: Galaxy Physics L2",
       "time": null,
       "end": null,
       "source": "manual",
