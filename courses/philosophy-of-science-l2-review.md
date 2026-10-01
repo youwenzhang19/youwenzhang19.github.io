@@ -1,6 +1,7 @@
 # L2 Review · 预测、说明、理解
 
-Classroom review outline（核对后）· Philosophy of Science · 2026 Fall
+Classroom review outline（Charlie 改稿）· Philosophy of Science · 2026 Fall  
+Also inline on the [course page](philosophy-of-science.html) (same pattern as L1 Review).
 
 ---
 
@@ -31,14 +32,19 @@ Classroom review outline（核对后）· Philosophy of Science · 2026 Fall
 		1. 演绎推理
 		2. 包含定律 T
 		3. 可检验且为真
-		- **DN 不必要**：史学／社科等可有说明而无普适演绎定律（中层理论／因果叙事）
-		- **DN 不充分**：
+		n.e.
+		- DN 不必要：史学／社科等可有说明而无普适演绎定律（中层理论／因果叙事）→ [归纳-统计模型 IS]
+		- DN 不充分：
 			- **说明的不对称性**（旗杆影子：杆→影可说明，影→杆通常不行）→ [说明的语用进路] by Bas van Fraassen 1941-  **详见L2 阅读材料
-			- **说明的不相关性**（e.g. 男服避孕药故未孕：形式合法但去掉药仍不孕）
-		- 统计延伸：[归纳-统计模型 IS]（统计定律无法保证单项；多参考类冲突）
+			- 说明的不相关性（e.g. 男服避孕药故未孕：形式合法但去掉药仍不孕）
 
 ## /TOOLBOX/
 
 概念分析 Explication 中的显定义 Explicit Def  
 1920-60 划界  
 寻找使一个东西成为 （     ） 的单个必要、集体充分的条件。
+
+## ?QUESTION?
+
+- 预测的结构为 if theory T, under C, then phenomenon P，这里C和P是否有联系？
+- 2个传统，预测和理解，矛盾点具体在哪里？
