@@ -1,13 +1,11 @@
 {
-  "updated": "2026-10-02",
+  "updated": "2026-10-06",
   "timezone": "Asia/Shanghai",
   "window": [
-    "2026-10-02",
-    "2026-10-03",
-    "2026-10-04",
-    "2026-10-05",
-    "2026-10-06",
-    "2026-10-07"
+    "2026-10-07",
+    "2026-10-08",
+    "2026-10-09",
+    "2026-10-10"
   ],
   "apple_calendar": {
     "enabled": false,
@@ -258,9 +256,9 @@
     {
       "id": "s67",
       "date": "2026-10-07",
-      "text": "Astronomy Museum internship",
-      "time": "2026-10-07T09:00:00",
-      "end": "2026-10-07T16:00:00",
+      "text": "Astronomical Observatory internship virtual check-in",
+      "time": null,
+      "end": null,
       "source": "manual",
       "done": false,
       "priority": 1
@@ -268,7 +266,7 @@
     {
       "id": "s68",
       "date": "2026-10-07",
-      "text": "Planetesimal Impact Research",
+      "text": "Planetesimal Impact Research: Build basic analytical model; study code",
       "time": null,
       "end": null,
       "source": "manual",
@@ -278,12 +276,182 @@
     {
       "id": "s73",
       "date": "2026-10-07",
-      "text": "Contest: GOSIM 2026 Agentic Observer Hackathon (online)",
+      "text": "Contest: GOSIM 2026 Agentic Observer Hackathon (online) wrap-up / finish",
       "time": null,
       "end": null,
       "source": "manual",
       "done": false,
       "priority": 2
+    },
+    {
+      "id": "s74",
+      "date": "2026-10-07",
+      "text": "Citywalk in the city + Baguette @ Xingxing's place",
+      "time": "2026-10-07T12:00:00",
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s75",
+      "date": "2026-10-07",
+      "text": "Reading: HEDP study-group papers — pick 1 of 6",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 3
+    },
+    {
+      "id": "s76",
+      "date": "2026-10-08",
+      "text": "Thermal and Statistical Physics L6",
+      "time": "2026-10-08T10:00:00",
+      "end": "2026-10-08T11:40:00",
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s77",
+      "date": "2026-10-08",
+      "text": "Classmate birthday late-night meal / supper",
+      "time": "2026-10-08T21:00:00",
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s78",
+      "date": "2026-10-08",
+      "text": "HW: Galaxy Physics HW1, HW2",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s79",
+      "date": "2026-10-08",
+      "text": "Planetesimal Impact Research: Build basic analytical model; study code",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s80",
+      "date": "2026-10-08",
+      "text": "Rewatch Thermal and Statistical Physics L2, L3 lecture recordings",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 3
+    },
+    {
+      "id": "s81",
+      "date": "2026-10-08",
+      "text": "Review: Galaxy Physics L2",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 3
+    },
+    {
+      "id": "s82",
+      "date": "2026-10-09",
+      "text": "Galaxy Physics L3",
+      "time": "2026-10-09T12:55:00",
+      "end": "2026-10-09T15:40:00",
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s83",
+      "date": "2026-10-09",
+      "text": "Planetesimal Impact Research: Build basic analytical model; study code",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s84",
+      "date": "2026-10-09",
+      "text": "Rewatch Thermal and Statistical Physics L4, L5 lecture recordings",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 3
+    },
+    {
+      "id": "s85",
+      "date": "2026-10-09",
+      "text": "Reading: Fluid Dynamics part in Modern Classical Physics",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 3
+    },
+    {
+      "id": "s86",
+      "date": "2026-10-10",
+      "text": "Thermal and Statistical Physics L7",
+      "time": "2026-10-10T10:00:00",
+      "end": "2026-10-10T11:40:00",
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s87",
+      "date": "2026-10-10",
+      "text": "Planetesimal Impact Research: Build basic analytical model; study code",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s88",
+      "date": "2026-10-10",
+      "text": "HW: Thermal and Statistical Physics HW1",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s89",
+      "date": "2026-10-10",
+      "text": "Reading: Fluid Dynamics part in Modern Classical Physics",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 3
+    },
+    {
+      "id": "s90",
+      "date": "2026-10-10",
+      "text": "Review: Thermal and Statistical Physics",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 3
     }
   ]
 }
