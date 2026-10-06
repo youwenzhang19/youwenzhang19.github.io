@@ -19,7 +19,7 @@
   <script type="module">
     import { loadJSON, formatDay } from "../js/lib.js?v=7";
 
-    const data = await loadJSON("../data/papers.json?v=3");
+    const data = await loadJSON("../data/papers.json?v=4");
     const groups = (data.groups || []).slice().sort((a, b) =>
       String(b.date).localeCompare(String(a.date))
     );
@@ -37,8 +37,11 @@
           const metaLine = meta ? `<br>&nbsp;&nbsp;${meta}` : "";
           return `<div class="cal-item">- ${title}${metaLine}</div>`;
         }).join("") || `<div class="cal-item">(empty)</div>`;
+        const heading = g.label
+          ? `${g.label} · ${formatDay(g.date)}`
+          : formatDay(g.date);
         return `
-          <p class="section-label day-label">${formatDay(g.date)}</p>
+          <p class="section-label day-label">${heading}</p>
           <div class="cal-items">${papers}</div>
         `;
       }).join("");

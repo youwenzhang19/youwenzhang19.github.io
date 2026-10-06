@@ -1,7 +1,103 @@
 {
-  "updated": "2026-09-29",
+  "updated": "2026-10-06",
   "note": "Papers I’m reading / following. Edit this file manually.",
   "groups": [
+    {
+      "date": "2026-10-06",
+      "label": "Planetesimal impact — 9.24 follow-ups",
+      "papers": [
+        {
+          "title": "Atmospheric Erosion by Giant Impacts onto Terrestrial Planets",
+          "authors": "J. A. Kegerreis, V. R. Eke, R. J. Massey, L. F. A. Teodoro",
+          "href": "./Kegerreis_2020_ApJ_897_161.pdf",
+          "note": "ApJ 897 161 (2020) · planetesimal/9.24/follow-ups"
+        },
+        {
+          "title": "Dynamical Friction in a Gaseous Medium",
+          "authors": "Eve C. Ostriker",
+          "href": "./Ostriker_1999_ApJ_513_252.pdf",
+          "note": "ApJ 513 252 (1999) · planetesimal/9.24/follow-ups"
+        },
+        {
+          "title": "Dynamical friction for supersonic motion in a homogeneous gaseous medium",
+          "authors": "Daniel Thun, Rolf Kuiper, Franziska Schmidt, Wilhelm Kley",
+          "href": "./Thun_2016_AA_589_A10.pdf",
+          "note": "A&A 589 A10 (2016) · planetesimal/9.24/follow-ups"
+        },
+        {
+          "title": "Atmospheric mass-loss due to giant impacts: the importance of the thermal component for hydrogen–helium envelopes",
+          "authors": "John B. Biersteker, Hilke E. Schlichting",
+          "href": "./Biersteker_2019_MNRAS_485_4454.pdf",
+          "note": "MNRAS 485 4454 (2019) · planetesimal/9.24/follow-ups"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "label": "Planetesimal impact — Athena++",
+      "papers": [
+        {
+          "title": "The Athena++ Adaptive Mesh Refinement Framework: Design and Magnetohydrodynamic Solvers",
+          "authors": "James M. Stone, Kengo Tomida, Christopher J. White, Kyle G. Felker",
+          "href": "./Stone_2020_ApJS_249_4.pdf",
+          "note": "ApJS 249 4 (2020) · planetesimal/Athena++"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "label": "Planetesimal impact — lit-review",
+      "papers": [
+        {
+          "title": "Solid-body Impacts on Planets with Thick H/He Envelopes: Penetration, Energy Deposition, and Implications for Super-Puffs (Literature Review)",
+          "authors": "Charlie / Cursor Preview draft",
+          "href": "./lit-review_planetesimal_HHe_envelopes.pdf",
+          "note": "planetesimal/lit-review.pdf"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "label": "HEDP · ref",
+      "papers": [
+        {
+          "title": "Extensions of a classical mechanics “piston-model” for understanding the impact of asymmetry on ICF implosions",
+          "authors": "O. A. Hurricane et al.",
+          "href": "./Hurricane_2022_PoP_29_012703.pdf",
+          "note": "Phys. Plasmas 29, 012703 (2022) · HEDP/ref"
+        },
+        {
+          "title": "An analytic asymmetric-piston model for the impact of mode-1 shell asymmetry on ICF implosions",
+          "authors": "O. A. Hurricane et al.",
+          "href": "./Hurricane_2020_PoP_27_062704.pdf",
+          "note": "Phys. Plasmas 27, 062704 (2020) · HEDP/ref"
+        },
+        {
+          "title": "One-dimensional planar hydrodynamic theory of shock ignition",
+          "authors": "R. Nora, R. Betti",
+          "href": "./Nora_2011_PoP_18_082710.pdf",
+          "note": "Phys. Plasmas 18, 082710 (2011) · HEDP/ref"
+        },
+        {
+          "title": "高密度等离子体喷流高速对撞的二维辐射流体模拟研究",
+          "authors": "杨孟奇, 吴福源, 陈致博 等; 张杰",
+          "href": "./Yang_2022_ActaPhysSin_plasma_jets.pdf",
+          "note": "Acta Phys. Sin. (2022) · HEDP/ref · source aps.71.20220948.pdf"
+        },
+        {
+          "title": "Double-cone ignition scheme for inertial confinement fusion",
+          "authors": "J. Zhang, W. M. Wang, X. H. Yang, D. Wu, Y. Y. Ma et al.",
+          "href": "./Zhang_2020_PhilTransRSA_378_20200015.pdf",
+          "note": "Phil. Trans. R. Soc. A 378:20200015 (2020) · HEDP/ref"
+        },
+        {
+          "title": "Cooling and instabilities in colliding flows",
+          "authors": "R. N. Markwick, A. Frank, J. Carroll-Nellenback, B. Liu, E. G. Blackman, S. V. Lebedev, P. M. Hartigan",
+          "href": "./Markwick_2021_MNRAS_508_2266.pdf",
+          "note": "MNRAS 508 2266 (2021) · HEDP/ref"
+        }
+      ]
+    },
     {
       "date": "2026-09-29",
       "papers": [
