@@ -3,7 +3,7 @@
   "projects": [
     {
       "id": "lsst-trail-night",
-      "title": "LSST Trail Night · 同夜轨迹",
+      "title": "LSST Trail Night",
       "scale": "small",
       "form": "WEBSITE · MUSEUM KIOSK DEMO",
       "status": "done",
@@ -13,7 +13,7 @@
       "members": [
         "Youwen Zhang"
       ],
-      "brief": "Museum kiosk demo: pick a night → one FOV basemap → same-night asteroid tracklets or transient alert cutouts (LSST / Rubin X05).",
+      "brief": "Museum kiosk: calendar night → zoom/pan one FOV basemap → asteroid trails or transient alert cutouts (LSST / Rubin X05).",
       "tags": [
         "astronomy",
         "museum",
