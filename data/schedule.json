@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-06",
+  "updated": "2026-10-13",
   "timezone": "Asia/Shanghai",
   "window": [
-    "2026-10-07",
-    "2026-10-08",
-    "2026-10-09",
-    "2026-10-10"
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-15",
+    "2026-10-16"
   ],
   "apple_calendar": {
     "enabled": false,
@@ -452,6 +452,146 @@
       "source": "manual",
       "done": false,
       "priority": 3
+    },
+    {
+      "id": "s91",
+      "date": "2026-10-13",
+      "text": "Planetesimal Impact Research",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s92",
+      "date": "2026-10-13",
+      "text": "Skate Club anniversary prep",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s93",
+      "date": "2026-10-13",
+      "text": "Fluid Dynamics study",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 3
+    },
+    {
+      "id": "s94",
+      "date": "2026-10-14",
+      "text": "Planetesimal Impact Research",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s95",
+      "date": "2026-10-14",
+      "text": "Study Thermal and Statistical Physics",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 3
+    },
+    {
+      "id": "s96",
+      "date": "2026-10-14",
+      "text": "Thermal and Statistical Physics HW1",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s97",
+      "date": "2026-10-14",
+      "text": "DCI Research",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s98",
+      "date": "2026-10-15",
+      "text": "Thermal and Statistical Physics L9",
+      "time": "2026-10-15T10:00:00",
+      "end": "2026-10-15T11:40:00",
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s99",
+      "date": "2026-10-15",
+      "text": "Thermal and Statistical Physics HW1",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s100",
+      "date": "2026-10-15",
+      "text": "Planetesimal Impact Research",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s101",
+      "date": "2026-10-15",
+      "text": "DCI Research",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s102",
+      "date": "2026-10-16",
+      "text": "Galaxy Physics L4",
+      "time": "2026-10-16T12:55:00",
+      "end": "2026-10-16T15:40:00",
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s103",
+      "date": "2026-10-16",
+      "text": "Planetesimal Impact Research",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s104",
+      "date": "2026-10-16",
+      "text": "DCI Research",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
     }
   ]
 }
