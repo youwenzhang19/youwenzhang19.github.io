@@ -144,21 +144,27 @@ hr.rule.thin {
   margin: 4px 0;
 }
 
-.longterm {
+.weekly-plan {
   margin: 0 0 14px;
 }
 
-.longterm-track {
+.weekly-plan-note {
+  margin: -6px 0 10px;
+  color: var(--mute);
+  font-size: 14px;
+}
+
+.weekly-plan-track {
   margin: 12px 0 6px;
   color: var(--dusk);
   font-size: 16px;
 }
 
-.longterm-track:first-child {
+.weekly-plan-track:first-child {
   margin-top: 0;
 }
 
-.longterm-check {
+.weekly-plan-check {
   color: var(--mute);
   font-variant-numeric: tabular-nums;
 }
