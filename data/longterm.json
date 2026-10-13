@@ -1,0 +1,63 @@
+{
+  "updated": "2026-10-13",
+  "title": "Long-term plans",
+  "tracks": [
+    {
+      "id": "pir",
+      "name": "Planetesimal Impact Research (PIR)",
+      "tasks": [
+        {
+          "id": "pir-1",
+          "text": "Build analytical model of planetary atmosphere",
+          "done": false
+        },
+        {
+          "id": "pir-2",
+          "text": "Build analytical model of solid-body infall",
+          "done": false
+        },
+        {
+          "id": "pir-3",
+          "text": "Learn GIZMO code",
+          "done": false
+        },
+        {
+          "id": "pir-4",
+          "text": "Run GIZMO simulations and match the analytical models",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "dci",
+      "name": "Double Cone Ignition (DCI)",
+      "tasks": [
+        {
+          "id": "dci-1",
+          "text": "Build 2D shock-wave analytical model",
+          "done": false
+        },
+        {
+          "id": "dci-2",
+          "text": "Build 1D rarefaction-wave analytical model",
+          "done": false
+        },
+        {
+          "id": "dci-3",
+          "text": "Build 2D cylindrically symmetric plasma shock-collision model",
+          "done": false
+        },
+        {
+          "id": "dci-4",
+          "text": "Build bow-shock model",
+          "done": false
+        },
+        {
+          "id": "dci-5",
+          "text": "Finish opening-report PPT",
+          "done": false
+        }
+      ]
+    }
+  ]
+}
