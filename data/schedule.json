@@ -1,11 +1,12 @@
 {
-  "updated": "2026-10-13",
+  "updated": "2026-10-19",
   "timezone": "Asia/Shanghai",
   "window": [
-    "2026-10-13",
-    "2026-10-14",
-    "2026-10-15",
-    "2026-10-16"
+    "2026-10-19",
+    "2026-10-20",
+    "2026-10-21",
+    "2026-10-22",
+    "2026-10-23"
   ],
   "apple_calendar": {
     "enabled": false,
@@ -587,6 +588,256 @@
       "id": "s104",
       "date": "2026-10-16",
       "text": "DCI Research",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s105",
+      "date": "2026-10-19",
+      "text": "ICF L5",
+      "time": "2026-10-19T14:00:00",
+      "end": "2026-10-19T16:40:00",
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s106",
+      "date": "2026-10-19",
+      "text": "Philosophy of Science L5",
+      "time": "2026-10-19T18:00:00",
+      "end": "2026-10-19T20:20:00",
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s107",
+      "date": "2026-10-19",
+      "text": "Fluid Dynamics study",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 3
+    },
+    {
+      "id": "s108",
+      "date": "2026-10-19",
+      "text": "Review: Philosophy of Science L3, L4",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 3
+    },
+    {
+      "id": "s109",
+      "date": "2026-10-19",
+      "text": "DCI Research",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s110",
+      "date": "2026-10-19",
+      "text": "Planetesimal Impact Research",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s111",
+      "date": "2026-10-19",
+      "text": "Skate Club anniversary prep",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s112",
+      "date": "2026-10-20",
+      "text": "DCI Research",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s113",
+      "date": "2026-10-20",
+      "text": "Planetesimal Impact Research",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s114",
+      "date": "2026-10-20",
+      "text": "Wall-painting",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s115",
+      "date": "2026-10-20",
+      "text": "Skate Club anniversary prep meeting",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s116",
+      "date": "2026-10-21",
+      "text": "Planetesimal Impact Research",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s117",
+      "date": "2026-10-21",
+      "text": "DCI Research",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s118",
+      "date": "2026-10-21",
+      "text": "Wall-painting",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s119",
+      "date": "2026-10-21",
+      "text": "Skate Club anniversary prep",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s120",
+      "date": "2026-10-22",
+      "text": "Thermal and Statistical Physics L10",
+      "time": "2026-10-22T10:00:00",
+      "end": "2026-10-22T11:40:00",
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s121",
+      "date": "2026-10-22",
+      "text": "Planetesimal Impact Research",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s122",
+      "date": "2026-10-22",
+      "text": "DCI Research",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s123",
+      "date": "2026-10-22",
+      "text": "Review: Thermal and Statistical Physics L1～L9",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 3
+    },
+    {
+      "id": "s124",
+      "date": "2026-10-22",
+      "text": "Wall-painting",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s125",
+      "date": "2026-10-22",
+      "text": "Skate Club anniversary prep",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s126",
+      "date": "2026-10-23",
+      "text": "DCI Research Meeting",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s127",
+      "date": "2026-10-23",
+      "text": "Galaxy Physics L5",
+      "time": "2026-10-23T12:55:00",
+      "end": "2026-10-23T15:40:00",
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s128",
+      "date": "2026-10-23",
+      "text": "Thermal and Statistical Physics L11",
+      "time": "2026-10-23T16:00:00",
+      "end": "2026-10-23T17:40:00",
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s129",
+      "date": "2026-10-23",
+      "text": "Skate Club anniversary handouts",
       "time": null,
       "end": null,
       "source": "manual",

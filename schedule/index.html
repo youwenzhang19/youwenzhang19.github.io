@@ -32,7 +32,7 @@
   <script type="module">
     import { loadJSON, loadICS, groupByDay, formatDay, formatItemLine } from "../js/lib.js?v=7";
 
-    const schedule = await loadJSON("../data/schedule.json?v=20");
+    const schedule = await loadJSON("../data/schedule.json?v=21");
     // Manual window only — edit schedule.json "window" yourself; no auto date roll.
     const windowDays = schedule.window || [];
     const windowSet = new Set(windowDays);
@@ -79,7 +79,7 @@
     // Weekly plan tracks (refreshed each week; not date-windowed)
     let weekly = { title: "Weekly plan", tracks: [] };
     try {
-      weekly = await loadJSON("../data/weekly-plan.json?v=1");
+      weekly = await loadJSON("../data/weekly-plan.json?v=2");
     } catch (_) {}
 
     const heading = document.getElementById("weekly-plan-heading");
