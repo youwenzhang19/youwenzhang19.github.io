@@ -10,21 +10,16 @@
       "tasks": [
         {
           "id": "pir-1",
-          "text": "Build analytical model of planetary atmosphere",
-          "done": false
-        },
-        {
-          "id": "pir-2",
           "text": "Build analytical model of solid-body infall",
           "done": false
         },
         {
-          "id": "pir-3",
+          "id": "pir-2",
           "text": "Learn GIZMO code",
           "done": false
         },
         {
-          "id": "pir-4",
+          "id": "pir-3",
           "text": "Run GIZMO simulations and match the analytical models",
           "done": false
         }
@@ -36,27 +31,73 @@
       "tasks": [
         {
           "id": "dci-1",
-          "text": "Build 2D shock-wave analytical model",
+          "text": "Review 10.16 meeting notes",
           "done": false
         },
         {
           "id": "dci-2",
-          "text": "Build 1D rarefaction-wave analytical model",
+          "text": "Finish opening-report PPT",
           "done": false
         },
         {
           "id": "dci-3",
-          "text": "Build 2D cylindrically symmetric plasma shock-collision model",
-          "done": false
-        },
-        {
-          "id": "dci-4",
           "text": "Build bow-shock model",
           "done": false
         },
         {
+          "id": "dci-4",
+          "text": "Build 2D shock-wave analytical model",
+          "done": false
+        },
+        {
           "id": "dci-5",
-          "text": "Finish opening-report PPT",
+          "text": "Build 1D rarefaction-wave analytical model",
+          "done": false
+        },
+        {
+          "id": "dci-6",
+          "text": "Build 2D cylindrically symmetric plasma shock-collision model",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "skate",
+      "name": "Skate Club anniversary prep",
+      "tasks": [
+        {
+          "id": "skate-1",
+          "text": "Finalize time, venue, and activity format",
+          "done": false
+        },
+        {
+          "id": "skate-2",
+          "text": "File report with campus security office (保卫处)",
+          "done": false
+        },
+        {
+          "id": "skate-3",
+          "text": "Buy needed materials (graffiti, activities, pre-events)",
+          "done": false
+        },
+        {
+          "id": "skate-4",
+          "text": "Make pre-event handout",
+          "done": false
+        },
+        {
+          "id": "skate-5",
+          "text": "Assign event staff roles",
+          "done": false
+        },
+        {
+          "id": "skate-6",
+          "text": "Write activity run-of-show / flow plan",
+          "done": false
+        },
+        {
+          "id": "skate-7",
+          "text": "Make WeChat Official Account and Xiaohongshu posts",
           "done": false
         }
       ]

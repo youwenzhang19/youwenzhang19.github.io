@@ -79,7 +79,7 @@
     // Weekly plan tracks (refreshed each week; not date-windowed)
     let weekly = { title: "Weekly plan", tracks: [] };
     try {
-      weekly = await loadJSON("../data/weekly-plan.json?v=2");
+      weekly = await loadJSON("../data/weekly-plan.json?v=3");
     } catch (_) {}
 
     const heading = document.getElementById("weekly-plan-heading");
