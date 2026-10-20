@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-21",
   "week_of": "2026-10-19",
   "title": "Weekly plan",
   "note": "Refreshed each week",
@@ -68,36 +68,41 @@
         {
           "id": "skate-1",
           "text": "Finalize time, venue, and activity format",
-          "done": false
-        },
-        {
-          "id": "skate-2",
-          "text": "File report with campus security office (保卫处)",
-          "done": false
-        },
-        {
-          "id": "skate-3",
-          "text": "Buy needed materials (graffiti, activities, pre-events)",
-          "done": false
-        },
-        {
-          "id": "skate-4",
-          "text": "Make pre-event handout",
-          "done": false
+          "done": true
         },
         {
           "id": "skate-5",
           "text": "Assign event staff roles",
+          "done": true
+        },
+        {
+          "id": "skate-2",
+          "text": "活动报备（Youwen；含保卫处）",
+          "done": false
+        },
+        {
+          "id": "skate-3",
+          "text": "采购：涂鸦工具、定制贴纸(@b2f)、学服布置、电音器材/移动电源",
+          "done": false
+        },
+        {
+          "id": "skate-4",
+          "text": "Pre-mission 物料制作",
           "done": false
         },
         {
           "id": "skate-6",
-          "text": "Write activity run-of-show / flow plan",
+          "text": "Write 11.1 run-of-show（pre-mission→隧道涂鸦→学服玩耍）",
           "done": false
         },
         {
           "id": "skate-7",
-          "text": "Make WeChat Official Account and Xiaohongshu posts",
+          "text": "小红书/公众号推文海报（@b2f、生菜）",
+          "done": false
+        },
+        {
+          "id": "skate-8",
+          "text": "10.31 视频剪辑",
           "done": false
         }
       ]

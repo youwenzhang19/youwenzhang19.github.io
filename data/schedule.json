@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-21",
   "timezone": "Asia/Shanghai",
   "window": [
     "2026-10-19",
@@ -703,6 +703,26 @@
       "source": "manual",
       "done": false,
       "priority": 2
+    },
+    {
+      "id": "s130",
+      "date": "2026-10-21",
+      "text": "Talk with Yu",
+      "time": "2026-10-21T10:30:00",
+      "end": "2026-10-21T11:30:00",
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s131",
+      "date": "2026-10-21",
+      "text": "去Adi新板场skate",
+      "time": "2026-10-21T12:30:00",
+      "end": "2026-10-21T17:30:00",
+      "source": "manual",
+      "done": false,
+      "priority": 1
     },
     {
       "id": "s116",
