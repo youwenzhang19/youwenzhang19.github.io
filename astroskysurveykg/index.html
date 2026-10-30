@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>巡天知识图谱 · 全景宇宙</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Serif+SC:wght@500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+        }
+      }
+    </script>
+    <script type="module" crossorigin src="/astroskysurveykg/assets/index-BWyXDEiL.js"></script>
+    <link rel="stylesheet" crossorigin href="/astroskysurveykg/assets/index-Cy4-kGhb.css">
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="space"></canvas>
+      <div id="nav-hint" class="scene-nav-info" aria-hidden="true">
+        left-click ROTATE | mouse-wheel ZOOM | right-click PAN
+      </div>
+      <div class="pan-controls" role="group" aria-label="平移视心">
+        <button
+          type="button"
+          id="pan-up"
+          class="view-btn pan-up"
+          aria-label="视心上移"
+          title="视心上移"
+        >
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+            <path
+              d="M6.5 14.5L12 8.5l5.5 6M12 8.5V19"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <button
+          type="button"
+          id="pan-left"
+          class="view-btn pan-left"
+          aria-label="视心左移"
+          title="视心左移"
+        >
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+            <path
+              d="M14.5 6.5L8.5 12l6 5.5M8.5 12H19"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <button
+          type="button"
+          id="pan-down"
+          class="view-btn pan-down"
+          aria-label="视心下移"
+          title="视心下移"
+        >
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+            <path
+              d="M6.5 9.5L12 15.5l5.5-6M12 15.5V5"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <button
+          type="button"
+          id="pan-right"
+          class="view-btn pan-right"
+          aria-label="视心右移"
+          title="视心右移"
+        >
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+            <path
+              d="M9.5 6.5L15.5 12l-6 5.5M15.5 12H5"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+      <div class="view-controls" role="group" aria-label="视图控制">
+        <button
+          type="button"
+          id="zoom-out"
+          class="view-btn"
+          aria-label="缩小"
+          title="缩小"
+        >
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+            <circle
+              cx="11"
+              cy="11"
+              r="6.2"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+            />
+            <path
+              d="M16.2 16.2L20 20M8 11h6"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+              stroke-linecap="round"
+            />
+          </svg>
+        </button>
+        <button
+          type="button"
+          id="zoom-in"
+          class="view-btn"
+          aria-label="放大"
+          title="放大"
+        >
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+            <circle
+              cx="11"
+              cy="11"
+              r="6.2"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+            />
+            <path
+              d="M16.2 16.2L20 20M8 11h6M11 8v6"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+              stroke-linecap="round"
+            />
+          </svg>
+        </button>
+        <button
+          type="button"
+          id="reset-view"
+          class="view-btn"
+          aria-label="重置视图"
+          title="重置视图"
+        >
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+            <path
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+              stroke-linecap="round"
+              d="M4 9V5h4M20 9V5h-4M4 15v4h4M20 15v4h-4"
+            />
+            <circle
+              cx="12"
+              cy="12"
+              r="2.2"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.4"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <header class="chrome">
+        <div class="brand">
+          <h1>全景宇宙</h1>
+          <p class="sub">巡天知识图谱</p>
+        </div>
+        <div class="chrome-right">
+          <button type="button" id="replay-intro" class="ghost-link">
+            重播引导
+          </button>
+          <div class="modes-row">
+            <div class="modes" role="tablist" aria-label="显示模式">
+              <button
+                type="button"
+                class="mode active"
+                data-mode="network"
+                aria-pressed="true"
+              >
+                关联网络
+              </button>
+              <button
+                type="button"
+                class="mode"
+                data-mode="exhibit"
+                aria-pressed="false"
+              >
+                展览板块
+              </button>
+              <button
+                type="button"
+                class="mode"
+                data-mode="survey"
+                aria-pressed="false"
+                title="按现代巡天项目排布"
+              >
+                巡天项目
+              </button>
+            </div>
+            <button
+              type="button"
+              id="survey-years-all"
+              class="survey-years-all"
+              hidden
+              aria-hidden="true"
+              title="返回全部年份"
+            >
+              全部年份
+            </button>
+            <button
+              type="button"
+              id="exhibit-zones-all"
+              class="survey-years-all"
+              hidden
+              aria-hidden="true"
+              title="返回全部展区"
+            >
+              全部展区
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <aside class="legend" aria-label="知识点类型筛选">
+        <div class="legend-head">
+          <div class="legend-title">图例</div>
+          <button
+            type="button"
+            id="legend-toggle"
+            class="ghost-icon"
+            aria-label="折叠图例"
+          >
+            ▾
+          </button>
+        </div>
+        <div id="legend-body">
+          <div id="legend-list"></div>
+          <button type="button" id="legend-all" class="ghost">全部显示</button>
+        </div>
+      </aside>
+
+      <div
+        id="guide-root"
+        class="guide-root"
+        aria-hidden="true"
+        aria-live="polite"
+      >
+        <div id="guide-spotlight" class="guide-spotlight" aria-hidden="true"></div>
+        <div id="guide-spotlight-2" class="guide-spotlight" aria-hidden="true"></div>
+        <div id="guide-coach" class="guide-coach">
+          <div class="guide-geo" aria-hidden="true">
+            <span class="guide-geo-sq"></span>
+            <span class="guide-geo-line"></span>
+            <span class="guide-geo-sq"></span>
+          </div>
+          <p id="guide-line" class="guide-line"></p>
+          <div class="guide-coach-bar">
+            <span id="guide-step" class="guide-step"></span>
+            <span id="guide-hint" class="guide-hint" hidden></span>
+            <button type="button" id="guide-next" class="guide-btn guide-next" hidden>
+              下一步
+            </button>
+            <button type="button" id="guide-skip" class="guide-btn guide-skip">
+              跳过
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="intro" class="intro" aria-modal="true" role="dialog">
+        <div class="intro-stage" data-step="0">
+          <div class="intro-visual intro-v-journal" aria-hidden="true">
+            <span class="iv-page"></span>
+            <span class="iv-page iv-page-2"></span>
+          </div>
+          <h2 class="intro-title">这张图</h2>
+          <p class="intro-copy">
+            这是上海天文馆做的知识图谱，把巡天相关的信息汇集在一起，方便策展时查阅、对照。
+          </p>
+        </div>
+        <div class="intro-stage hide" data-step="1">
+          <div class="intro-visual intro-v-nodes" aria-hidden="true">
+            <span class="iv-dot d1"></span>
+            <span class="iv-dot d2"></span>
+            <span class="iv-dot d3"></span>
+          </div>
+          <h2 class="intro-title">彩色的球</h2>
+          <p class="intro-copy">
+            每一颗球，是一个知识点。颜色告诉你它属于哪一类——巡天、数据，或是展项。球越大，它和周围的联系越多。点一下，下方会出现介绍。
+          </p>
+        </div>
+        <div class="intro-stage hide" data-step="2">
+          <div class="intro-visual intro-v-arcs" aria-hidden="true">
+            <span class="iv-arc"></span>
+          </div>
+          <h2 class="intro-title">那些细线</h2>
+          <p class="intro-copy">
+            线把彼此有关的点连起来：某次巡天留下了某份数据，某个展项在讲某段科学。拖动画面，滚轮靠近，慢慢看清它们怎样牵在一起。
+          </p>
+        </div>
+        <div class="intro-nav">
+          <button type="button" id="intro-prev" class="intro-nav-btn" hidden>
+            上一步
+          </button>
+          <div class="intro-dots" id="intro-dots" aria-hidden="true"></div>
+          <button type="button" id="intro-next" class="intro-btn">下一步</button>
+        </div>
+      </div>
+
+      <div id="featured-labels" class="featured-labels" aria-hidden="true"></div>
+
+      <div class="dock" id="dock">
+        <div class="featured" id="featured-bar" aria-label="精选巡天"></div>
+        <label class="search" for="kg-search">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <input
+            id="kg-search"
+            type="search"
+            placeholder="搜索名称或展区编号…"
+            autocomplete="off"
+            spellcheck="false"
+          />
+        </label>
+        <ul id="search-results" class="search-results" hidden></ul>
+      </div>
+
+      <aside id="drawer" class="drawer" aria-hidden="true">
+        <div class="drawer-scroll">
+          <div class="drawer-type" id="d-type"></div>
+          <h2 id="d-name"></h2>
+          <p class="drawer-meta" id="d-meta"></p>
+          <section id="d-summary-wrap">
+            <h3>简介</h3>
+            <p id="d-summary"></p>
+          </section>
+          <section id="d-facts-wrap">
+            <h3>关键数字 / 事实</h3>
+            <ul id="d-facts" class="fact-list"></ul>
+          </section>
+          <section id="d-conflicts-wrap" hidden>
+            <h3>并列说法</h3>
+            <ul id="d-conflicts" class="conflict-list"></ul>
+          </section>
+          <section id="d-neighbors-wrap" hidden>
+            <h3>关联</h3>
+            <ul id="d-neighbors" class="neighbor-list"></ul>
+          </section>
+          <section id="d-links-wrap">
+            <h3>官方来源</h3>
+            <ul id="d-links" class="link-list"></ul>
+          </section>
+          <section id="d-ai-wrap" hidden>
+            <h3>AI注释</h3>
+            <p id="d-ai" class="drawer-ai"></p>
+          </section>
+        </div>
+        <button
+          type="button"
+          id="drawer-back"
+          class="drawer-back"
+          aria-label="关闭详情"
+          title="关闭"
+        >
+          <span class="drawer-back-chevron" aria-hidden="true">▾</span>
+        </button>
+      </aside>
+    </div>
+
+  </body>
+</html>
