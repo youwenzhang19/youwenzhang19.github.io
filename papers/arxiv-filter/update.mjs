@@ -374,11 +374,19 @@ function renderHtml({ weeks, authors }) {
     .map(({ label, items }) => {
       const lines = items
         .map((p) => {
-          const short = escapeHtml(p.matchedShortNames.join(", "));
+          const names = p.matchedWatchAuthors || [];
+          const shorts = p.matchedShortNames || [];
+          const authorsAttr = escapeHtml(names.join("|"));
+          const shortHtml = shorts
+            .map((s, i) => {
+              const full = names[i] || s;
+              const id = authorFilterId({ shortName: s, name: full });
+              return `<a href="#${escapeHtml(id)}" class="author-filter author-inline" data-author="${escapeHtml(full)}" title="${escapeHtml(full)}">${escapeHtml(s)}</a>`;
+            })
+            .join(", ");
           const title = escapeHtml(p.title);
           const href = escapeHtml(p.absUrl);
-          const authorsAttr = escapeHtml((p.matchedWatchAuthors || []).join("|"));
-          return `    <div class="cal-item" data-authors="${authorsAttr}">- <a href="${href}" target="_blank" rel="noopener noreferrer">${title}</a>: ${short}</div>`;
+          return `    <div class="cal-item" data-authors="${authorsAttr}">- <a href="${href}" target="_blank" rel="noopener noreferrer">${title}</a>: ${shortHtml}</div>`;
         })
         .join("\n");
       return `  <section class="week-block">\n  <p class="section-label day-label">${escapeHtml(label)} =====================================</p>\n  <div class="cal-items">\n${lines}\n  </div>\n  </section>`;
@@ -412,6 +420,13 @@ function renderHtml({ weeks, authors }) {
       color: var(--mute);
       margin-right: 6px;
     }
+    .author-filter {
+      color: var(--link);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+      cursor: pointer;
+    }
+    .author-filter:hover { color: var(--link-hover); }
     .author-filter.is-active {
       color: var(--link-hover);
       font-weight: 700;
@@ -454,20 +469,29 @@ ${body || "  <p>(empty)</p>"}
           a.classList.toggle("is-active", active);
         });
       }
-      document.querySelector(".author-links")?.addEventListener("click", function (e) {
+      var current = "";
+      document.addEventListener("click", function (e) {
         var a = e.target.closest("a.author-filter");
         if (!a) return;
         e.preventDefault();
         var name = a.getAttribute("data-author") || "";
-        if (name) history.replaceState(null, "", "#" + (a.getAttribute("href") || "").replace(/^#/, ""));
-        else history.replaceState(null, "", location.pathname + location.search);
+        if (name && name === current) name = "";
+        current = name;
+        if (name) {
+          var href = (a.getAttribute("href") || "").replace(/^#/, "");
+          history.replaceState(null, "", href ? "#" + href : location.pathname + location.search);
+        } else {
+          history.replaceState(null, "", location.pathname + location.search);
+        }
         applyFilter(name);
       });
       var hash = location.hash.replace(/^#/, "");
       if (hash && hash !== "all") {
         var match = document.querySelector('.author-filter[href="#' + CSS.escape(hash) + '"]');
-        applyFilter(match ? match.getAttribute("data-author") || "" : "");
+        current = match ? match.getAttribute("data-author") || "" : "";
+        applyFilter(current);
       } else {
+        current = "";
         applyFilter("");
       }
     })();
