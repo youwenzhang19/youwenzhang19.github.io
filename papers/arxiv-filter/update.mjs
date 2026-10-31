@@ -177,6 +177,15 @@ function applyFilter(author, papers) {
   return papers;
 }
 
+/** Build arXiv API / site search_query for an author. */
+function authorSearchQuery(author) {
+  const au = `au:"${author.query || author.name}"`;
+  if (author.field === "astrophysics" || author.cat === "astro-ph*") {
+    return `${au} AND cat:astro-ph*`;
+  }
+  return au;
+}
+
 /** Parts for America/New_York wall time. */
 function etParts(date) {
   const fmt = new Intl.DateTimeFormat("en-US", {
@@ -274,14 +283,14 @@ async function fetchAuthor(author, cfg) {
 
   for (let page = 0; page < maxPages; page++) {
     const params = new URLSearchParams({
-      search_query: `au:"${author.query}"`,
+      search_query: authorSearchQuery(author),
       sortBy: "submittedDate",
       sortOrder: "descending",
       start: String(start),
       max_results: String(pageSize),
     });
     const url = `${API}?${params}`;
-    process.stderr.write(`  ${author.name} start=${start} … `);
+    process.stderr.write(`  ${author.name} [${authorSearchQuery(author)}] start=${start} … `);
     const res = await fetch(url, {
       headers: { "User-Agent": "youwenzhang19-arxiv-filter-weekly/1.0" },
     });
@@ -340,16 +349,15 @@ function groupByWeek(papers) {
   return ordered.map(([label, items]) => ({ label, items }));
 }
 
-function arxivAuthorSearchUrl(query) {
-  const q = `au:"${query}"`;
-  return `https://arxiv.org/search/?query=${encodeURIComponent(q)}&searchtype=all&source=header`;
+function arxivAuthorSearchUrl(author) {
+  return `https://arxiv.org/search/?query=${encodeURIComponent(authorSearchQuery(author))}&searchtype=all&source=header`;
 }
 
 function renderAuthorLinks(authors) {
   const astro = authors.filter((a) => a.field === "astrophysics");
   const phil = authors.filter((a) => a.field === "philosophy-of-science");
   const link = (a) =>
-    `<a href="${escapeHtml(arxivAuthorSearchUrl(a.query || a.name))}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(a.name)}">${escapeHtml(a.shortName || a.name)}</a>`;
+    `<a href="${escapeHtml(arxivAuthorSearchUrl(a))}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(a.name)}">${escapeHtml(a.shortName || a.name)}</a>`;
   const row = (list) => list.map(link).join(" · ");
   const parts = [];
   if (astro.length) parts.push(`<div class="author-row"><span class="author-field">Astro</span> ${row(astro)}</div>`);
@@ -487,17 +495,24 @@ async function writeOutputs({ weeks, merged, cfg, builtAt }) {
   );
 }
 
-/** Rebuild HTML/JSON from existing papers.json (no API). */
+/** Rebuild HTML/JSON from existing papers.json (no API). Remap shortNames from authors.json. */
 async function renderOnly() {
   const cfg = JSON.parse(await fs.readFile(path.join(ROOT, "authors.json"), "utf8"));
   const data = JSON.parse(await fs.readFile(path.join(ROOT, "papers.json"), "utf8"));
+  const shortByName = new Map(
+    cfg.authors.map((a) => [a.name, a.shortName || a.name])
+  );
   const weeks = (data.weeks || []).map((w) => ({
     label: w.label,
-    items: (w.papers || []).map((p) => ({
-      ...p,
-      matchedShortNames: p.matchedShortNames || [],
-      matchedWatchAuthors: p.matchedWatchAuthors || [],
-    })),
+    items: (w.papers || []).map((p) => {
+      const names = p.matchedWatchAuthors || [];
+      const shorts = names.map((n) => shortByName.get(n) || n);
+      return {
+        ...p,
+        matchedWatchAuthors: names,
+        matchedShortNames: shorts.length ? shorts : p.matchedShortNames || [],
+      };
+    }),
   }));
   const merged = weeks.flatMap((w) => w.items);
   await writeOutputs({

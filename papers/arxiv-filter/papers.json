@@ -1,8 +1,8 @@
 {
-  "builtAt": "2026-10-31T17:21:30.564Z",
+  "builtAt": "2026-10-31T17:23:27.698Z",
   "weekBoundary": "Friday 14:00 America/New_York (EDT=UTC-4 → Fri 18:00 UTC / Sat 02:00 Asia/Shanghai; EST=UTC-5 → Fri 19:00 UTC / Sat 03:00 Asia/Shanghai)",
-  "paperCount": 553,
-  "weekCount": 408,
+  "paperCount": 478,
+  "weekCount": 375,
   "weekRange": "02/21/1992 → 10/30/2026",
   "authors": [
     {
@@ -70,9 +70,16 @@
     },
     {
       "name": "Fangyuan Yu",
-      "shortName": "Fangyuan Yu",
+      "shortName": "F.Yu",
       "field": "astrophysics",
       "query": "Fangyuan Yu",
+      "filter": null
+    },
+    {
+      "name": "Siyu Yao",
+      "shortName": "Yao",
+      "field": "astrophysics",
+      "query": "Siyu Yao",
       "filter": null
     },
     {
@@ -87,25 +94,13 @@
       "shortName": "van Fraassen",
       "field": "philosophy-of-science",
       "query": "Bas van Fraassen",
-      "filter": null
+      "filter": "phil-sci"
     }
   ],
   "weeks": [
     {
       "label": "10/30/2026",
       "papers": [
-        {
-          "title": "Efficient Covariance-Aware Vicinal Latent Diffusion for Continuous Conditional Image Generation",
-          "absUrl": "https://arxiv.org/abs/2610.39277",
-          "arxivId": "2610.39277",
-          "published": "2026-10-29T03:29:46Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        },
         {
           "title": "Harmonic brightness oscillations point to magnetar giant flares in rare short gamma-ray bursts",
           "absUrl": "https://arxiv.org/abs/2610.39130",
@@ -158,36 +153,12 @@
           "matchedShortNames": [
             "Lai"
           ]
-        },
-        {
-          "title": "MCDA: Multi-View Graph Contrastive Learning with Dynamic Topology Augmentation for Functional MRI Analysis",
-          "absUrl": "https://arxiv.org/abs/2610.26322",
-          "arxivId": "2610.26322",
-          "published": "2026-10-19T13:00:27Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
         }
       ]
     },
     {
       "label": "10/02/2026",
       "papers": [
-        {
-          "title": "World-as-Graph: Relational World Modeling Through Latent Space Graphs",
-          "absUrl": "https://arxiv.org/abs/2609.38927",
-          "arxivId": "2609.38927",
-          "published": "2026-09-30T04:08:41Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        },
         {
           "title": "HLX-1 as a Repeating Partial Tidal Disruption Event around an Intermediate-Mass Black Hole",
           "absUrl": "https://arxiv.org/abs/2609.38694",
@@ -197,7 +168,7 @@
             "Fangyuan Yu"
           ],
           "matchedShortNames": [
-            "Fangyuan Yu"
+            "F.Yu"
           ]
         },
         {
@@ -211,19 +182,7 @@
           ],
           "matchedShortNames": [
             "Yang",
-            "Fangyuan Yu"
-          ]
-        },
-        {
-          "title": "What Should Data Teach? Moving Bottlenecks Across Circuit, Store, and Use",
-          "absUrl": "https://arxiv.org/abs/2609.32991",
-          "arxivId": "2609.32991",
-          "published": "2026-09-26T22:40:36Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
+            "F.Yu"
           ]
         }
       ]
@@ -231,18 +190,6 @@
     {
       "label": "09/25/2026",
       "papers": [
-        {
-          "title": "M$^2$PFN: End-to-End Disentangled Alignment for Generalizable Multimodal In-Context Learning in Alzheimer's Disease",
-          "absUrl": "https://arxiv.org/abs/2609.28836",
-          "arxivId": "2609.28836",
-          "published": "2026-09-23T23:05:36Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        },
         {
           "title": "Using Machine Learning to Model Stellar Collisions in our Galactic Center",
           "absUrl": "https://arxiv.org/abs/2609.25318",
@@ -260,18 +207,6 @@
     {
       "label": "09/18/2026",
       "papers": [
-        {
-          "title": "Conformal Privacy Auditing: Calibrated Re-identification Attacks with Statistical Guarantees",
-          "absUrl": "https://arxiv.org/abs/2609.21340",
-          "arxivId": "2609.21340",
-          "published": "2026-09-18T05:49:54Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        },
         {
           "title": "Three-dimensional simulations of accretion disks in pre-CE systems -- II. Accretion efficiency and angular momentum transport",
           "absUrl": "https://arxiv.org/abs/2609.17998",
@@ -316,66 +251,8 @@
       ]
     },
     {
-      "label": "08/14/2026",
-      "papers": [
-        {
-          "title": "Quasi-Sinusoidal Single Diamond Structure in Royal Jewel Butterfly: An Angle-Independent Photonic Structure",
-          "absUrl": "https://arxiv.org/abs/2608.08540",
-          "arxivId": "2608.08540",
-          "published": "2026-08-09T07:32:23Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "08/07/2026",
-      "papers": [
-        {
-          "title": "When Is a Conformal Guarantee Fair? Auditing Silent Subgroup Under-Coverage in Alzheimer's Disease Longitudinal Prediction",
-          "absUrl": "https://arxiv.org/abs/2608.04254",
-          "arxivId": "2608.04254",
-          "published": "2026-08-04T22:20:44Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        },
-        {
-          "title": "DocPO: Advancing Document Policy Optimization via Tailored Step-Aware Rewards",
-          "absUrl": "https://arxiv.org/abs/2608.00536",
-          "arxivId": "2608.00536",
-          "published": "2026-08-01T08:45:41Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        }
-      ]
-    },
-    {
       "label": "07/17/2026",
       "papers": [
-        {
-          "title": "Mirror symmetry in 3d in 3d mirror symmetry",
-          "absUrl": "https://arxiv.org/abs/2607.15074",
-          "arxivId": "2607.15074",
-          "published": "2026-07-16T14:45:58Z",
-          "matchedWatchAuthors": [
-            "Mengqi Yang"
-          ],
-          "matchedShortNames": [
-            "Yang"
-          ]
-        },
         {
           "title": "Efficiency of Tidal Dissipation in Convective Flow Under Rapid Tidal Forcing",
           "absUrl": "https://arxiv.org/abs/2607.14637",
@@ -399,36 +276,12 @@
           "matchedShortNames": [
             "Lai"
           ]
-        },
-        {
-          "title": "TabPFN beyond Tabular Data: Calibration and Accuracy on Multimodal Embeddings",
-          "absUrl": "https://arxiv.org/abs/2607.11007",
-          "arxivId": "2607.11007",
-          "published": "2026-07-13T02:11:27Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
         }
       ]
     },
     {
       "label": "07/03/2026",
       "papers": [
-        {
-          "title": "MORE: A Multilingual Document Parsing Benchmark and Evaluation",
-          "absUrl": "https://arxiv.org/abs/2607.02956",
-          "arxivId": "2607.02956",
-          "published": "2026-07-03T04:59:12Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        },
         {
           "title": "Aerosols and hydrocarbons in the atmosphere of a white dwarf planet",
           "absUrl": "https://arxiv.org/abs/2607.01316",
@@ -439,6 +292,18 @@
           ],
           "matchedShortNames": [
             "O'Connor"
+          ]
+        },
+        {
+          "title": "Deep Learning for Astrophysics: An Open Textbook from the NASA Cosmic Origins AI/ML Science and Technology Interest Group",
+          "absUrl": "https://arxiv.org/abs/2606.30855",
+          "arxivId": "2606.30855",
+          "published": "2026-06-29T19:37:39Z",
+          "matchedWatchAuthors": [
+            "Siyu Yao"
+          ],
+          "matchedShortNames": [
+            "Yao"
           ]
         }
       ]
@@ -456,18 +321,6 @@
           ],
           "matchedShortNames": [
             "Lau"
-          ]
-        },
-        {
-          "title": "Dimension expansion for simulation-efficient nanophotonic neural networks",
-          "absUrl": "https://arxiv.org/abs/2606.25226",
-          "arxivId": "2606.25226",
-          "published": "2026-06-23T22:59:32Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
           ]
         },
         {
@@ -500,18 +353,6 @@
       "label": "06/19/2026",
       "papers": [
         {
-          "title": "A Surface-based Multimodal Framework for Multitask Analysis in Alzheimer's Disease",
-          "absUrl": "https://arxiv.org/abs/2606.15692",
-          "arxivId": "2606.15692",
-          "published": "2026-06-14T09:15:39Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        },
-        {
           "title": "Black hole mergers from dense star clusters with realistic binary populations",
           "absUrl": "https://arxiv.org/abs/2606.14846",
           "arxivId": "2606.14846",
@@ -539,65 +380,12 @@
           "matchedShortNames": [
             "Lai"
           ]
-        },
-        {
-          "title": "Hybrid Verified Decoding: Learning to Allocate Verification in Speculative Decoding",
-          "absUrl": "https://arxiv.org/abs/2606.01019",
-          "arxivId": "2606.01019",
-          "published": "2026-05-31T05:22:40Z",
-          "matchedWatchAuthors": [
-            "Fangyuan Yu"
-          ],
-          "matchedShortNames": [
-            "Fangyuan Yu"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "05/29/2026",
-      "papers": [
-        {
-          "title": "Acoustic radiation force on a liquid particle in a standing surface acoustic wave field",
-          "absUrl": "https://arxiv.org/abs/2605.26989",
-          "arxivId": "2605.26989",
-          "published": "2026-05-26T13:12:14Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        },
-        {
-          "title": "Learning Sparse Compositional Functions with Norm-Constrained Neural Networks",
-          "absUrl": "https://arxiv.org/abs/2605.25608",
-          "arxivId": "2605.25608",
-          "published": "2026-05-25T09:02:13Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
         }
       ]
     },
     {
       "label": "05/15/2026",
       "papers": [
-        {
-          "title": "Dynamic Latent Routing",
-          "absUrl": "https://arxiv.org/abs/2605.14323",
-          "arxivId": "2605.14323",
-          "published": "2026-05-14T03:35:46Z",
-          "matchedWatchAuthors": [
-            "Fangyuan Yu"
-          ],
-          "matchedShortNames": [
-            "Fangyuan Yu"
-          ]
-        },
         {
           "title": "Continuous mass ablation of planets engulfed in stellar envelopes",
           "absUrl": "https://arxiv.org/abs/2605.11343",
@@ -608,35 +396,6 @@
           ],
           "matchedShortNames": [
             "Lau"
-          ]
-        },
-        {
-          "title": "PromptDx: Differentiable Prompt Tuning for Multimodal In-Context Alzheimer's Diagnosis",
-          "absUrl": "https://arxiv.org/abs/2605.08585",
-          "arxivId": "2605.08585",
-          "published": "2026-05-09T01:05:34Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "05/08/2026",
-      "papers": [
-        {
-          "title": "NeuroAgent: LLM Agents for Multimodal Neuroimaging Analysis and Research",
-          "absUrl": "https://arxiv.org/abs/2605.06584",
-          "arxivId": "2605.06584",
-          "published": "2026-05-07T17:13:48Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
           ]
         }
       ]
@@ -659,23 +418,6 @@
       ]
     },
     {
-      "label": "04/10/2026",
-      "papers": [
-        {
-          "title": "Sparse-Aware Neural Networks for Nonlinear Functionals: Mitigating the Exponential Dependence on Dimension",
-          "absUrl": "https://arxiv.org/abs/2604.06774",
-          "arxivId": "2604.06774",
-          "published": "2026-04-08T07:42:02Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        }
-      ]
-    },
-    {
       "label": "04/03/2026",
       "papers": [
         {
@@ -688,35 +430,6 @@
           ],
           "matchedShortNames": [
             "O'Connor"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "03/20/2026",
-      "papers": [
-        {
-          "title": "TAB-AUDIT: Detecting AI-Fabricated Scientific Tables via Multi-View Likelihood Mismatch",
-          "absUrl": "https://arxiv.org/abs/2603.19712",
-          "arxivId": "2603.19712",
-          "published": "2026-03-20T07:33:54Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        },
-        {
-          "title": "A Data-Driven Regional Model for Skillful Medium-Range Typhoon Prediction",
-          "absUrl": "https://arxiv.org/abs/2603.15127",
-          "arxivId": "2603.15127",
-          "published": "2026-03-16T11:24:03Z",
-          "matchedWatchAuthors": [
-            "Mengqi Yang"
-          ],
-          "matchedShortNames": [
-            "Yang"
           ]
         }
       ]
@@ -757,7 +470,7 @@
             "Fangyuan Yu"
           ],
           "matchedShortNames": [
-            "Fangyuan Yu"
+            "F.Yu"
           ]
         }
       ]
@@ -870,6 +583,18 @@
       "label": "01/16/2026",
       "papers": [
         {
+          "title": "What Understanding Means in AI-Laden Astronomy",
+          "absUrl": "https://arxiv.org/abs/2601.10038",
+          "arxivId": "2601.10038",
+          "published": "2026-01-15T03:28:38Z",
+          "matchedWatchAuthors": [
+            "Siyu Yao"
+          ],
+          "matchedShortNames": [
+            "Yao"
+          ]
+        },
+        {
           "title": "Thermal-timescale accretion does not always yield critical rotation in mass gainers",
           "absUrl": "https://arxiv.org/abs/2601.08508",
           "arxivId": "2601.08508",
@@ -913,35 +638,6 @@
           ],
           "matchedShortNames": [
             "Rovelli"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "11/28/2025",
-      "papers": [
-        {
-          "title": "Bell Plesset Effects on Rayleigh Taylor Instability of Three Dimensional Spherical Geometry",
-          "absUrl": "https://arxiv.org/abs/2511.19028",
-          "arxivId": "2511.19028",
-          "published": "2025-11-24T12:03:23Z",
-          "matchedWatchAuthors": [
-            "Mengqi Yang"
-          ],
-          "matchedShortNames": [
-            "Yang"
-          ]
-        },
-        {
-          "title": "HunyuanVideo 1.5 Technical Report",
-          "absUrl": "https://arxiv.org/abs/2511.18870",
-          "arxivId": "2511.18870",
-          "published": "2025-11-24T08:22:07Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
           ]
         }
       ]
@@ -1032,18 +728,6 @@
             "Lai",
             "Yang"
           ]
-        },
-        {
-          "title": "Magnetic transition in B2 Al-Cr-Co alloys",
-          "absUrl": "https://arxiv.org/abs/2510.21982",
-          "arxivId": "2510.21982",
-          "published": "2025-10-24T19:19:05Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
         }
       ]
     },
@@ -1097,18 +781,6 @@
       "label": "10/03/2025",
       "papers": [
         {
-          "title": "Learning Multi-Index Models with Hyper-Kernel Ridge Regression",
-          "absUrl": "https://arxiv.org/abs/2510.02532",
-          "arxivId": "2510.02532",
-          "published": "2025-10-02T20:03:33Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        },
-        {
           "title": "Mercury's Crustal Magnetization Indicates a Stronger Ancient Dynamo",
           "absUrl": "https://arxiv.org/abs/2510.02003",
           "arxivId": "2510.02003",
@@ -1130,23 +802,6 @@
           ],
           "matchedShortNames": [
             "Lai"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "09/26/2025",
-      "papers": [
-        {
-          "title": "Zero-Shot Privacy-Aware Text Rewriting via Iterative Tree Search",
-          "absUrl": "https://arxiv.org/abs/2509.20838",
-          "arxivId": "2509.20838",
-          "published": "2025-09-25T07:23:52Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
           ]
         }
       ]
@@ -1227,18 +882,6 @@
           ],
           "matchedShortNames": [
             "Lai"
-          ]
-        },
-        {
-          "title": "Intelligent Shanghai Typhoon Model (ISTM): A generative probabilistic emulator for typhoon hybrid modeling",
-          "absUrl": "https://arxiv.org/abs/2508.16851",
-          "arxivId": "2508.16851",
-          "published": "2025-08-23T00:44:04Z",
-          "matchedWatchAuthors": [
-            "Mengqi Yang"
-          ],
-          "matchedShortNames": [
-            "Yang"
           ]
         }
       ]
@@ -1402,35 +1045,6 @@
           "matchedShortNames": [
             "Lai"
           ]
-        },
-        {
-          "title": "Memorization-Compression Cycles Improve Generalization",
-          "absUrl": "https://arxiv.org/abs/2505.08727",
-          "arxivId": "2505.08727",
-          "published": "2025-05-13T16:37:54Z",
-          "matchedWatchAuthors": [
-            "Fangyuan Yu"
-          ],
-          "matchedShortNames": [
-            "Fangyuan Yu"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "05/02/2025",
-      "papers": [
-        {
-          "title": "Machine Learning (ML)-Physics Fusion Model Outperforms Both Physics-Only and ML-Only Models in Typhoon Predictions",
-          "absUrl": "https://arxiv.org/abs/2504.20852",
-          "arxivId": "2504.20852",
-          "published": "2025-04-29T15:21:07Z",
-          "matchedWatchAuthors": [
-            "Mengqi Yang"
-          ],
-          "matchedShortNames": [
-            "Yang"
-          ]
         }
       ]
     },
@@ -1448,7 +1062,7 @@
           ],
           "matchedShortNames": [
             "Lai",
-            "Fangyuan Yu"
+            "F.Yu"
           ]
         }
       ]
@@ -1511,7 +1125,7 @@
             "Fangyuan Yu"
           ],
           "matchedShortNames": [
-            "Fangyuan Yu"
+            "F.Yu"
           ]
         }
       ]
@@ -1529,69 +1143,6 @@
           ],
           "matchedShortNames": [
             "Kegerreis"
-          ]
-        },
-        {
-          "title": "Word2Minecraft: Generating 3D Game Levels through Large Language Models",
-          "absUrl": "https://arxiv.org/abs/2503.16536",
-          "arxivId": "2503.16536",
-          "published": "2025-03-18T18:38:38Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "03/14/2025",
-      "papers": [
-        {
-          "title": "Gemini Embedding: Generalizable Embeddings from Gemini",
-          "absUrl": "https://arxiv.org/abs/2503.07891",
-          "arxivId": "2503.07891",
-          "published": "2025-03-10T22:16:45Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "02/28/2025",
-      "papers": [
-        {
-          "title": "Scaling LLM Pre-training with Vocabulary Curriculum",
-          "absUrl": "https://arxiv.org/abs/2502.17910",
-          "arxivId": "2502.17910",
-          "published": "2025-02-25T07:18:29Z",
-          "matchedWatchAuthors": [
-            "Fangyuan Yu"
-          ],
-          "matchedShortNames": [
-            "Fangyuan Yu"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "02/21/2025",
-      "papers": [
-        {
-          "title": "Towards a Learning Theory of Representation Alignment",
-          "absUrl": "https://arxiv.org/abs/2502.14047",
-          "arxivId": "2502.14047",
-          "published": "2025-02-19T19:09:14Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
           ]
         }
       ]
@@ -1738,30 +1289,6 @@
           "matchedShortNames": [
             "S.Huang"
           ]
-        },
-        {
-          "title": "Design of thermal hysteresis in nonstoichiometric alloys with giant magnetocaloric effect",
-          "absUrl": "https://arxiv.org/abs/2410.01747",
-          "arxivId": "2410.01747",
-          "published": "2024-10-02T17:01:07Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        },
-        {
-          "title": "Spherical Analysis of Learning Nonlinear Functionals",
-          "absUrl": "https://arxiv.org/abs/2410.01047",
-          "arxivId": "2410.01047",
-          "published": "2024-10-01T20:10:00Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
         }
       ]
     },
@@ -1779,7 +1306,7 @@
           ],
           "matchedShortNames": [
             "Lai",
-            "Fangyuan Yu"
+            "F.Yu"
           ]
         }
       ]
@@ -1805,18 +1332,6 @@
       "label": "08/30/2024",
       "papers": [
         {
-          "title": "Iterative Graph Alignment",
-          "absUrl": "https://arxiv.org/abs/2408.16667",
-          "arxivId": "2408.16667",
-          "published": "2024-08-29T16:15:01Z",
-          "matchedWatchAuthors": [
-            "Fangyuan Yu"
-          ],
-          "matchedShortNames": [
-            "Fangyuan Yu"
-          ]
-        },
-        {
           "title": "Can metal-rich worlds form by giant impacts?",
           "absUrl": "https://arxiv.org/abs/2408.15340",
           "arxivId": "2408.15340",
@@ -1831,37 +1346,8 @@
       ]
     },
     {
-      "label": "08/23/2024",
-      "papers": [
-        {
-          "title": "ssProp: Energy-Efficient Training for Convolutional Neural Networks with Scheduled Sparse Back Propagation",
-          "absUrl": "https://arxiv.org/abs/2408.12561",
-          "arxivId": "2408.12561",
-          "published": "2024-08-22T17:22:59Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        }
-      ]
-    },
-    {
       "label": "08/02/2024",
       "papers": [
-        {
-          "title": "PsybORG+: Modeling and Simulation for Detecting Cognitive Biases in Advanced Persistent Threats",
-          "absUrl": "https://arxiv.org/abs/2408.01310",
-          "arxivId": "2408.01310",
-          "published": "2024-08-02T15:00:58Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        },
         {
           "title": "On the suppression of giant planet formation around low-mass stars in clustered environments",
           "absUrl": "https://arxiv.org/abs/2407.19018",
@@ -1879,18 +1365,6 @@
     {
       "label": "07/19/2024",
       "papers": [
-        {
-          "title": "PlacidDreamer: Advancing Harmony in Text-to-3D Generation",
-          "absUrl": "https://arxiv.org/abs/2407.13976",
-          "arxivId": "2407.13976",
-          "published": "2024-07-19T02:00:04Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        },
         {
           "title": "Why you do not need to worry about the standard argument that you are a Boltzmann brain",
           "absUrl": "https://arxiv.org/abs/2407.13197",
@@ -1967,18 +1441,6 @@
       "label": "06/21/2024",
       "papers": [
         {
-          "title": "Diffusion Model-based FOD Restoration from High Distortion in dMRI",
-          "absUrl": "https://arxiv.org/abs/2406.13209",
-          "arxivId": "2406.13209",
-          "published": "2024-06-19T04:41:29Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        },
-        {
           "title": "Windows Into Other Worlds: Pitfalls in the physical interpretation of exoplanet atmospheric spectroscopy",
           "absUrl": "https://arxiv.org/abs/2406.12765",
           "arxivId": "2406.12765",
@@ -1988,18 +1450,6 @@
           ],
           "matchedShortNames": [
             "Modirrousta-Galian"
-          ]
-        },
-        {
-          "title": "Causal Discovery Inspired Unsupervised Domain Adaptation for Emotion-Cause Pair Extraction",
-          "absUrl": "https://arxiv.org/abs/2406.15490",
-          "arxivId": "2406.15490",
-          "published": "2024-06-18T13:01:30Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
           ]
         }
       ]
@@ -2012,40 +1462,6 @@
           "absUrl": "https://arxiv.org/abs/2406.09890",
           "arxivId": "2406.09890",
           "published": "2024-06-14T10:01:31Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "06/07/2024",
-      "papers": [
-        {
-          "title": "NAP^2: A Benchmark for Naturalness and Privacy-Preserving Text Rewriting by Learning from Human",
-          "absUrl": "https://arxiv.org/abs/2406.03749",
-          "arxivId": "2406.03749",
-          "published": "2024-06-06T05:07:44Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "05/24/2024",
-      "papers": [
-        {
-          "title": "Tau Anomaly Detection in PET Imaging via Bilateral-Guided Deterministic Diffusion Model",
-          "absUrl": "https://arxiv.org/abs/2405.13199",
-          "arxivId": "2405.13199",
-          "published": "2024-05-21T21:02:53Z",
           "matchedWatchAuthors": [
             "Shuo Huang"
           ],
@@ -2086,7 +1502,7 @@
           ],
           "matchedShortNames": [
             "Lai",
-            "Fangyuan Yu"
+            "F.Yu"
           ]
         }
       ]
@@ -2296,18 +1712,6 @@
       "label": "07/21/2023",
       "papers": [
         {
-          "title": "Generating Redstone Style Cities in Minecraft",
-          "absUrl": "https://arxiv.org/abs/2307.09777",
-          "arxivId": "2307.09777",
-          "published": "2023-07-19T06:36:01Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        },
-        {
           "title": "Painlevé-Gullstrand coordinates discontinuity in the quantum Oppenheimer-Snyder model",
           "absUrl": "https://arxiv.org/abs/2307.07797",
           "arxivId": "2307.07797",
@@ -2317,23 +1721,6 @@
           ],
           "matchedShortNames": [
             "Rovelli"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "07/14/2023",
-      "papers": [
-        {
-          "title": "AvatarFusion: Zero-shot Generation of Clothing-Decoupled 3D Avatars Using 2D Diffusion",
-          "absUrl": "https://arxiv.org/abs/2307.06526",
-          "arxivId": "2307.06526",
-          "published": "2023-07-13T02:19:56Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
           ]
         }
       ]
@@ -2353,35 +1740,6 @@
           "matchedShortNames": [
             "Lai",
             "O'Connor"
-          ]
-        },
-        {
-          "title": "Shuffled Autoregression For Motion Interpolation",
-          "absUrl": "https://arxiv.org/abs/2306.06367",
-          "arxivId": "2306.06367",
-          "published": "2023-06-10T07:14:59Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "06/02/2023",
-      "papers": [
-        {
-          "title": "Fine-grained Analysis of Non-parametric Estimation for Pairwise Learning",
-          "absUrl": "https://arxiv.org/abs/2305.19640",
-          "arxivId": "2305.19640",
-          "published": "2023-05-31T08:13:14Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
           ]
         }
       ]
@@ -2416,30 +1774,6 @@
           ],
           "matchedShortNames": [
             "Rovelli"
-          ]
-        },
-        {
-          "title": "Beyond the Model: Data Pre-processing Attack to Deep Learning Models in Android Apps",
-          "absUrl": "https://arxiv.org/abs/2305.03963",
-          "arxivId": "2305.03963",
-          "published": "2023-05-06T07:35:39Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        },
-        {
-          "title": "Energy-Latency Attacks to On-Device Neural Networks via Sponge Poisoning",
-          "absUrl": "https://arxiv.org/abs/2305.03888",
-          "arxivId": "2305.03888",
-          "published": "2023-05-06T01:20:30Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
           ]
         }
       ]
@@ -2551,23 +1885,6 @@
           ],
           "matchedShortNames": [
             "S.Huang"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "12/23/2022",
-      "papers": [
-        {
-          "title": "Joint Power Allocation and Decoding Order Selection for NOMA Systems: Outage-Optimal Strategies",
-          "absUrl": "https://arxiv.org/abs/2212.12145",
-          "arxivId": "2212.12145",
-          "published": "2022-12-23T04:39:18Z",
-          "matchedWatchAuthors": [
-            "Mengqi Yang"
-          ],
-          "matchedShortNames": [
-            "Yang"
           ]
         }
       ]
@@ -2737,18 +2054,6 @@
     {
       "label": "09/30/2022",
       "papers": [
-        {
-          "title": "Site-specific atomic substitution in a giant magnetocaloric Fe$_2$P-type system",
-          "absUrl": "https://arxiv.org/abs/2209.14962",
-          "arxivId": "2209.14962",
-          "published": "2022-09-29T17:36:24Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        },
         {
           "title": "IXPE Detection of Polarized X-rays from Magnetars and Photon Mode Conversion at QED Vacuum Resonance",
           "absUrl": "https://arxiv.org/abs/2209.13640",
@@ -2936,23 +2241,6 @@
       ]
     },
     {
-      "label": "04/22/2022",
-      "papers": [
-        {
-          "title": "Granular dynamics in auger sampling",
-          "absUrl": "https://arxiv.org/abs/2204.09552",
-          "arxivId": "2204.09552",
-          "published": "2022-04-20T15:43:38Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        }
-      ]
-    },
-    {
       "label": "04/15/2022",
       "papers": [
         {
@@ -2999,23 +2287,6 @@
           ],
           "matchedShortNames": [
             "Lai"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "02/25/2022",
-      "papers": [
-        {
-          "title": "Flock navigation with dynamic hierarchy and subjective weights using nonlinear MPC",
-          "absUrl": "https://arxiv.org/abs/2202.11331",
-          "arxivId": "2202.11331",
-          "published": "2022-02-23T07:24:51Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
           ]
         }
       ]
@@ -3222,18 +2493,6 @@
       "label": "09/10/2021",
       "papers": [
         {
-          "title": "Unbiased Estimation of the Hessian for Partially Observed Diffusions",
-          "absUrl": "https://arxiv.org/abs/2109.02371",
-          "arxivId": "2109.02371",
-          "published": "2021-09-06T11:22:04Z",
-          "matchedWatchAuthors": [
-            "Fangyuan Yu"
-          ],
-          "matchedShortNames": [
-            "Fangyuan Yu"
-          ]
-        },
-        {
           "title": "Bridging the neuroscience and physics of time",
           "absUrl": "https://arxiv.org/abs/2110.01976",
           "arxivId": "2110.01976",
@@ -3277,23 +2536,6 @@
           ],
           "matchedShortNames": [
             "Lai"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "07/09/2021",
-      "papers": [
-        {
-          "title": "Randomized multilevel Monte Carlo for embarrassingly parallel inference",
-          "absUrl": "https://arxiv.org/abs/2107.01913",
-          "arxivId": "2107.01913",
-          "published": "2021-07-05T10:09:41Z",
-          "matchedWatchAuthors": [
-            "Fangyuan Yu"
-          ],
-          "matchedShortNames": [
-            "Fangyuan Yu"
           ]
         }
       ]
@@ -3471,69 +2713,6 @@
           ],
           "matchedShortNames": [
             "Lai"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "02/05/2021",
-      "papers": [
-        {
-          "title": "On Robustness of Neural Semantic Parsers",
-          "absUrl": "https://arxiv.org/abs/2102.01563",
-          "arxivId": "2102.01563",
-          "published": "2021-02-02T15:41:28Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "01/29/2021",
-      "papers": [
-        {
-          "title": "Data-driven design of a new class of rare-earth free permanent magnets",
-          "absUrl": "https://arxiv.org/abs/2101.10773",
-          "arxivId": "2101.10773",
-          "published": "2021-01-26T13:28:37Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        },
-        {
-          "title": "Few-Shot Semantic Parsing for New Predicates",
-          "absUrl": "https://arxiv.org/abs/2101.10708",
-          "arxivId": "2101.10708",
-          "published": "2021-01-26T11:08:08Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "11/13/2020",
-      "papers": [
-        {
-          "title": "Multilevel Ensemble Kalman-Bucy Filters",
-          "absUrl": "https://arxiv.org/abs/2011.04342",
-          "arxivId": "2011.04342",
-          "published": "2020-11-09T11:10:51Z",
-          "matchedWatchAuthors": [
-            "Fangyuan Yu"
-          ],
-          "matchedShortNames": [
-            "Fangyuan Yu"
           ]
         }
       ]
@@ -3738,18 +2917,6 @@
           "matchedShortNames": [
             "Biersteker"
           ]
-        },
-        {
-          "title": "Theory of Deep Convolutional Neural Networks II: Spherical Analysis",
-          "absUrl": "https://arxiv.org/abs/2007.14285",
-          "arxivId": "2007.14285",
-          "published": "2020-07-28T14:54:30Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
         }
       ]
     },
@@ -3863,18 +3030,6 @@
           ],
           "matchedShortNames": [
             "Modirrousta-Galian"
-          ]
-        },
-        {
-          "title": "Extinction and quasi-stationarity for discrete-time, endemic SIS and SIR models",
-          "absUrl": "https://arxiv.org/abs/2005.08312",
-          "arxivId": "2005.08312",
-          "published": "2020-05-17T17:25:31Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
           ]
         },
         {
@@ -4028,18 +3183,6 @@
           ]
         },
         {
-          "title": "Unbiased Filtering of a Class of Partially Observed Diffusions",
-          "absUrl": "https://arxiv.org/abs/2002.03747",
-          "arxivId": "2002.03747",
-          "published": "2020-02-10T13:48:49Z",
-          "matchedWatchAuthors": [
-            "Fangyuan Yu"
-          ],
-          "matchedShortNames": [
-            "Fangyuan Yu"
-          ]
-        },
-        {
           "title": "Atmospheric Erosion by Giant Impacts onto Terrestrial Planets",
           "absUrl": "https://arxiv.org/abs/2002.02977",
           "arxivId": "2002.02977",
@@ -4066,76 +3209,6 @@
           ],
           "matchedShortNames": [
             "Modirrousta-Galian"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "01/10/2020",
-      "papers": [
-        {
-          "title": "Image Speckle Noise Denoising by a Multi-Layer Fusion Enhancement Method based on Block Matching and 3D Filtering",
-          "absUrl": "https://arxiv.org/abs/2001.01055",
-          "arxivId": "2001.01055",
-          "published": "2020-01-04T08:17:52Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "01/03/2020",
-      "papers": [
-        {
-          "title": "A Total Variation Denoising Method Based on Median Filter and Phase Consistency",
-          "absUrl": "https://arxiv.org/abs/2001.00150",
-          "arxivId": "2001.00150",
-          "published": "2020-01-01T06:15:42Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        },
-        {
-          "title": "Simulation of Skin Stretching around the Forehead Wrinkles in Rhytidectomy",
-          "absUrl": "https://arxiv.org/abs/2001.00149",
-          "arxivId": "2001.00149",
-          "published": "2020-01-01T06:06:56Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        },
-        {
-          "title": "Measurement of Liquid Flow Rate among the Annular Flow in Vertical Tee Junction",
-          "absUrl": "https://arxiv.org/abs/2003.06017",
-          "arxivId": "2003.06017",
-          "published": "2020-01-01T05:58:16Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        },
-        {
-          "title": "Non-rigid Registration Method between 3D CT Liver Data and 2D Ultrasonic Images based on Demons Model",
-          "absUrl": "https://arxiv.org/abs/2001.00035",
-          "arxivId": "2001.00035",
-          "published": "2019-12-31T19:01:04Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
           ]
         }
       ]
@@ -4308,23 +3381,6 @@
       ]
     },
     {
-      "label": "07/19/2019",
-      "papers": [
-        {
-          "title": "Multilevel Particle Filters for the Non-Linear Filtering Problem in Continuous Time",
-          "absUrl": "https://arxiv.org/abs/1907.06328",
-          "arxivId": "1907.06328",
-          "published": "2019-07-15T04:12:13Z",
-          "matchedWatchAuthors": [
-            "Fangyuan Yu"
-          ],
-          "matchedShortNames": [
-            "Fangyuan Yu"
-          ]
-        }
-      ]
-    },
-    {
       "label": "06/21/2019",
       "papers": [
         {
@@ -4366,23 +3422,6 @@
           ],
           "matchedShortNames": [
             "Lai"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "04/19/2019",
-      "papers": [
-        {
-          "title": "A monotone scheme for G-equations with application to the explicit convergence rate of robust central limit theorem",
-          "absUrl": "https://arxiv.org/abs/1904.07184",
-          "arxivId": "1904.07184",
-          "published": "2019-04-15T16:59:14Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
           ]
         }
       ]
@@ -4536,37 +3575,8 @@
       ]
     },
     {
-      "label": "10/26/2018",
-      "papers": [
-        {
-          "title": "An approximation scheme for variational inequalities with convex and coercive Hamiltonians",
-          "absUrl": "https://arxiv.org/abs/1810.08842",
-          "arxivId": "1810.08842",
-          "published": "2018-10-20T19:03:45Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        }
-      ]
-    },
-    {
       "label": "10/12/2018",
       "papers": [
-        {
-          "title": "Central Limit Theorems for Coupled Particle Filters",
-          "absUrl": "https://arxiv.org/abs/1810.04900",
-          "arxivId": "1810.04900",
-          "published": "2018-10-11T08:37:56Z",
-          "matchedWatchAuthors": [
-            "Fangyuan Yu"
-          ],
-          "matchedShortNames": [
-            "Fangyuan Yu"
-          ]
-        },
         {
           "title": "Hydrodynamics of circumbinary accretion: Angular momentum transfer and binary orbital evolution",
           "absUrl": "https://arxiv.org/abs/1810.04676",
@@ -4812,23 +3822,6 @@
           ],
           "matchedShortNames": [
             "Lai"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "01/05/2018",
-      "papers": [
-        {
-          "title": "An approximation scheme for semilinear parabolic PDEs with convex and coercive Hamiltonians",
-          "absUrl": "https://arxiv.org/abs/1801.00583",
-          "arxivId": "1801.00583",
-          "published": "2018-01-02T09:00:38Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
           ]
         }
       ]
@@ -5824,23 +4817,6 @@
       ]
     },
     {
-      "label": "05/23/2014",
-      "papers": [
-        {
-          "title": "Integrability on generalized $q$-Toda equation and hierarchy",
-          "absUrl": "https://arxiv.org/abs/1405.5401",
-          "arxivId": "1405.5401",
-          "published": "2014-05-21T12:52:04Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        }
-      ]
-    },
-    {
       "label": "05/09/2014",
       "papers": [
         {
@@ -5853,23 +4829,6 @@
           ],
           "matchedShortNames": [
             "Lai"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "05/02/2014",
-      "papers": [
-        {
-          "title": "DualTable: A Hybrid Storage Model for Update Optimization in Hive",
-          "absUrl": "https://arxiv.org/abs/1404.6878",
-          "arxivId": "1404.6878",
-          "published": "2014-04-28T06:43:36Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
           ]
         }
       ]
@@ -8206,23 +7165,6 @@
           ],
           "matchedShortNames": [
             "Rovelli"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "02/26/1999",
-      "papers": [
-        {
-          "title": "A Family of Gravitational Waveforms from Rapidly Rotating Neutron Stars",
-          "absUrl": "https://arxiv.org/abs/gr-qc/9902068",
-          "arxivId": "gr-qc/9902068",
-          "published": "1999-02-22T16:14:59Z",
-          "matchedWatchAuthors": [
-            "Dong Lai"
-          ],
-          "matchedShortNames": [
-            "Lai"
           ]
         }
       ]

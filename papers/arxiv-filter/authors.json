@@ -1,5 +1,5 @@
 {
-  "_comment": "Charlie 关注作者。name=全名；shortName=gp 式条目冒号后短名；query=arXiv au:；field=领域；filter=可选启发式（phil-sci 仅 Rovelli）。filterNote 不在 UI 展示。",
+  "_comment": "Charlie 关注作者。Astro：au + cat:astro-ph*。Phil-sci：Rovelli／van Fraassen 均 filter=phil-sci（启发式；UI 不展示 filterNote）。",
   "pageSize": 100,
   "maxPagesPerAuthor": 30,
   "requestDelayMs": 400,
@@ -8,61 +8,78 @@
       "name": "Dong Lai",
       "shortName": "Lai",
       "query": "Dong Lai",
-      "field": "astrophysics"
+      "field": "astrophysics",
+      "cat": "astro-ph*"
     },
     {
       "name": "Darius Modirrousta-Galian",
       "shortName": "Modirrousta-Galian",
       "query": "Darius Modirrousta-Galian",
-      "field": "astrophysics"
+      "field": "astrophysics",
+      "cat": "astro-ph*"
     },
     {
       "name": "Christopher E. O'Connor",
       "shortName": "O'Connor",
       "query": "Christopher E. O'Connor",
-      "field": "astrophysics"
+      "field": "astrophysics",
+      "cat": "astro-ph*"
     },
     {
       "name": "Mike Y. M. Lau",
       "shortName": "Lau",
       "query": "Mike Y. M. Lau",
-      "field": "astrophysics"
+      "field": "astrophysics",
+      "cat": "astro-ph*"
     },
     {
       "name": "Mengqi Yang",
       "shortName": "Yang",
       "query": "Mengqi Yang",
-      "field": "astrophysics"
+      "field": "astrophysics",
+      "cat": "astro-ph*"
     },
     {
       "name": "John B. Biersteker",
       "shortName": "Biersteker",
       "query": "John B. Biersteker",
-      "field": "astrophysics"
+      "field": "astrophysics",
+      "cat": "astro-ph*"
     },
     {
       "name": "J. A. Kegerreis",
       "shortName": "Kegerreis",
       "query": "J. A. Kegerreis",
-      "field": "astrophysics"
+      "field": "astrophysics",
+      "cat": "astro-ph*"
     },
     {
       "name": "Xiuming Huang",
       "shortName": "X.Huang",
       "query": "Xiuming Huang",
-      "field": "astrophysics"
+      "field": "astrophysics",
+      "cat": "astro-ph*"
     },
     {
       "name": "Shuo Huang",
       "shortName": "S.Huang",
       "query": "Shuo Huang",
-      "field": "astrophysics"
+      "field": "astrophysics",
+      "cat": "astro-ph*"
     },
     {
       "name": "Fangyuan Yu",
-      "shortName": "Fangyuan Yu",
+      "shortName": "F.Yu",
       "query": "Fangyuan Yu",
-      "field": "astrophysics"
+      "field": "astrophysics",
+      "cat": "astro-ph*"
+    },
+    {
+      "name": "Siyu Yao",
+      "shortName": "Yao",
+      "query": "Siyu Yao",
+      "field": "astrophysics",
+      "cat": "astro-ph*"
     },
     {
       "name": "Carlo Rovelli",
@@ -75,7 +92,8 @@
       "name": "Bas van Fraassen",
       "shortName": "van Fraassen",
       "query": "Bas van Fraassen",
-      "field": "philosophy-of-science"
+      "field": "philosophy-of-science",
+      "filter": "phil-sci"
     }
   ]
 }
