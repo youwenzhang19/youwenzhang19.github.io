@@ -1,0 +1,23 @@
+{
+  "_comment": "Charlie 关注作者名录。name=界面标签；query=arXiv au: 检索串。filter=可选启发式过滤（目前 Carlo Rovelli 用 phil-sci）。",
+  "maxResultsPerAuthor": 40,
+  "authors": [
+    { "name": "Dong Lai", "query": "Dong Lai" },
+    {
+      "name": "Carlo Rovelli",
+      "query": "Carlo Rovelli",
+      "filter": "phil-sci",
+      "filterNote": "只保留与科学哲学相关的论文（关键词／分类启发式；可能漏检或误留）。"
+    },
+    { "name": "Bas van Fraassen", "query": "Bas van Fraassen" },
+    { "name": "Darius Modirrousta-Galian", "query": "Darius Modirrousta-Galian" },
+    { "name": "Christopher E. O'Connor", "query": "Christopher E. O'Connor" },
+    { "name": "Mike Y. M. Lau", "query": "Mike Y. M. Lau" },
+    { "name": "Mengqi Yang", "query": "Mengqi Yang" },
+    { "name": "John B. Biersteker", "query": "John B. Biersteker" },
+    { "name": "J. A. Kegerreis", "query": "J. A. Kegerreis" },
+    { "name": "Xiuming Huang", "query": "Xiuming Huang" },
+    { "name": "Shuo Huang", "query": "Shuo Huang" },
+    { "name": "Fangyuan Yu", "query": "Fangyuan Yu" }
+  ]
+}
