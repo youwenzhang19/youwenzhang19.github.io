@@ -13,7 +13,7 @@ MM/DD/YYYY =====================================
 
 `Title` 链到 `https://arxiv.org/abs/…`；冒号后是匹配到的关注作者 `shortName`（多人用逗号拼接）。
 
-顶栏：标题 + **作者 arXiv 搜索链接**（Astro／Phil-sci 分行）。无搜索框／Filter notes／date mode／reload。
+顶栏：标题 + **作者过滤链接**（点 shortName 只显示该作者论文；`All` 清除；**不**跳转 arXiv）。Astro／Phil-sci 分行。无搜索框／Filter notes／date mode／reload／元信息行。
 
 ## arXiv 周边界
 

@@ -349,23 +349,27 @@ function groupByWeek(papers) {
   return ordered.map(([label, items]) => ({ label, items }));
 }
 
-function arxivAuthorSearchUrl(author) {
-  return `https://arxiv.org/search/?query=${encodeURIComponent(authorSearchQuery(author))}&searchtype=all&source=header`;
+function authorFilterId(author) {
+  return `a-${(author.shortName || author.name).replace(/[^A-Za-z0-9]+/g, "-")}`;
 }
 
 function renderAuthorLinks(authors) {
   const astro = authors.filter((a) => a.field === "astrophysics");
   const phil = authors.filter((a) => a.field === "philosophy-of-science");
-  const link = (a) =>
-    `<a href="${escapeHtml(arxivAuthorSearchUrl(a))}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(a.name)}">${escapeHtml(a.shortName || a.name)}</a>`;
+  const link = (a) => {
+    const id = authorFilterId(a);
+    return `<a href="#${escapeHtml(id)}" class="author-filter" data-author="${escapeHtml(a.name)}" title="${escapeHtml(a.name)}">${escapeHtml(a.shortName || a.name)}</a>`;
+  };
   const row = (list) => list.map(link).join(" · ");
-  const parts = [];
+  const parts = [
+    `<div class="author-row"><a href="#all" class="author-filter is-active" data-author="">All</a></div>`,
+  ];
   if (astro.length) parts.push(`<div class="author-row"><span class="author-field">Astro</span> ${row(astro)}</div>`);
   if (phil.length) parts.push(`<div class="author-row"><span class="author-field">Phil-sci</span> ${row(phil)}</div>`);
   return parts.join("\n    ");
 }
 
-function renderHtml({ weeks, meta, authors }) {
+function renderHtml({ weeks, authors }) {
   const body = weeks
     .map(({ label, items }) => {
       const lines = items
@@ -373,10 +377,11 @@ function renderHtml({ weeks, meta, authors }) {
           const short = escapeHtml(p.matchedShortNames.join(", "));
           const title = escapeHtml(p.title);
           const href = escapeHtml(p.absUrl);
-          return `    <div class="cal-item">- <a href="${href}" target="_blank" rel="noopener noreferrer">${title}</a>: ${short}</div>`;
+          const authorsAttr = escapeHtml((p.matchedWatchAuthors || []).join("|"));
+          return `    <div class="cal-item" data-authors="${authorsAttr}">- <a href="${href}" target="_blank" rel="noopener noreferrer">${title}</a>: ${short}</div>`;
         })
         .join("\n");
-      return `  <p class="section-label day-label">${escapeHtml(label)} =====================================</p>\n  <div class="cal-items">\n${lines}\n  </div>`;
+      return `  <section class="week-block">\n  <p class="section-label day-label">${escapeHtml(label)} =====================================</p>\n  <div class="cal-items">\n${lines}\n  </div>\n  </section>`;
     })
     .join("\n\n");
 
@@ -407,24 +412,66 @@ function renderHtml({ weeks, meta, authors }) {
       color: var(--mute);
       margin-right: 6px;
     }
+    .author-filter.is-active {
+      color: var(--link-hover);
+      font-weight: 700;
+    }
     .day-label { margin: 20px 0 8px; }
     .cal-items { margin: 0 0 8px; }
     .cal-item { margin: 2px 0; }
+    .week-block.is-empty { display: none; }
+    .cal-item.is-hidden { display: none; }
   </style>
 </head>
 <body>
   <header class="page-header">
     <h1>Subsribed New Arxiv Submissions</h1>
-    <nav class="author-links" aria-label="Watch authors on arXiv">
+    <nav class="author-links" aria-label="Filter by watch author">
     ${renderAuthorLinks(authors)}
     </nav>
   </header>
-<p>Back to <a href="../index.html">Papers</a> · <a href="../../index.html">homepage</a></p>
+  <p>Back to <a href="../index.html">Papers</a> · <a href="../../index.html">homepage</a></p>
 
 ${body || "  <p>(empty)</p>"}
 
   <hr class="rule thin" />
   <p>Back to <a href="../index.html">Papers</a> · <a href="../../index.html">homepage</a></p>
+  <script>
+    (function () {
+      function applyFilter(name) {
+        var items = document.querySelectorAll(".cal-item[data-authors]");
+        items.forEach(function (el) {
+          var authors = (el.getAttribute("data-authors") || "").split("|");
+          var show = !name || authors.indexOf(name) !== -1;
+          el.classList.toggle("is-hidden", !show);
+        });
+        document.querySelectorAll(".week-block").forEach(function (block) {
+          var visible = block.querySelector(".cal-item:not(.is-hidden)");
+          block.classList.toggle("is-empty", !visible);
+        });
+        document.querySelectorAll(".author-filter").forEach(function (a) {
+          var active = (a.getAttribute("data-author") || "") === (name || "");
+          a.classList.toggle("is-active", active);
+        });
+      }
+      document.querySelector(".author-links")?.addEventListener("click", function (e) {
+        var a = e.target.closest("a.author-filter");
+        if (!a) return;
+        e.preventDefault();
+        var name = a.getAttribute("data-author") || "";
+        if (name) history.replaceState(null, "", "#" + (a.getAttribute("href") || "").replace(/^#/, ""));
+        else history.replaceState(null, "", location.pathname + location.search);
+        applyFilter(name);
+      });
+      var hash = location.hash.replace(/^#/, "");
+      if (hash && hash !== "all") {
+        var match = document.querySelector('.author-filter[href="#' + CSS.escape(hash) + '"]');
+        applyFilter(match ? match.getAttribute("data-author") || "" : "");
+      } else {
+        applyFilter("");
+      }
+    })();
+  </script>
 </body>
 </html>
 `;
