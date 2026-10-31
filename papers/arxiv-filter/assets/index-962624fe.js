@@ -18,29 +18,5 @@
       <h1>Subsribed New Arxiv Submissions</h1>
     </header>
 
-    <section class="toolbar" aria-label="filters">
-      <div class="toolbar-row">
-        <label class="search-label">
-          search
-          <input type="search" id="search" placeholder="title / author / id" />
-        </label>
-        <label class="date-label">
-          group by
-          <select id="date-mode">
-            <option value="published">submitted</option>
-            <option value="updated">updated</option>
-          </select>
-        </label>
-        <button type="button" id="reload" class="btn">reload</button>
-      </div>
-      <div class="chip-row" id="chips"></div>
-      <p class="status-line" id="status-line"></p>
-      <p class="hint" id="filter-notes"></p>
-    </section>
-
     <main class="feed" id="feed"></main>
-
-    <footer class="page-footer">
-      <p>Data from <a href="https://info.arxiv.org/help/api/index.html" target="_blank" rel="noopener noreferrer">arXiv API</a>. Dev: Vite <code>/api/arxiv</code> proxy; Pages: <code>proxy.cors.dev</code>.</p>
-    </footer>
   `,v.addEventListener(`input`,e=>{let t=e.target;t.id===`search`&&(y.search=t.value,O())}),v.addEventListener(`change`,e=>{let t=e.target;t.id===`date-mode`&&(y.dateMode=t.value,O())}),v.addEventListener(`click`,e=>{let t=e.target.closest(`button`);if(!t)return;if(t.id===`reload`){j();return}let n=t.dataset.author;n&&(n===`__all__`?y.selectedAuthors.clear():y.selectedAuthors.size===0?y.selectedAuthors=new Set([n]):y.selectedAuthors.has(n)?y.selectedAuthors.delete(n):y.selectedAuthors.add(n),k())}),!0)}function O(){let e=document.querySelector(`#feed`),t=document.querySelector(`#status-line`);e&&(e.innerHTML=T()),t&&(t.innerHTML=E())}function k(){D();let e=document.querySelector(`#chips`);e&&(e.innerHTML=w());let t=document.querySelector(`#filter-notes`);if(t){let e=o(y.config?.authors??[]);t.textContent=e.length?`Filter notes — ${e.join(` · `)}`:``}let n=document.querySelector(`#date-mode`);n&&(n.value=y.dateMode);let r=document.querySelector(`#search`);r&&r.value!==y.search&&(r.value=y.search),O()}async function A(){let e=await fetch(new URL(`../authors.json`,import.meta.url));if(!e.ok)throw Error(`cannot read authors.json (HTTP ${e.status})`);if(y.config=await e.json(),!y.config.authors?.length)throw Error(`authors.json has no authors`)}async function j(){if(y.config){y.loading=!0,y.error=null,y.progress=`fetching…`,k();try{let e=y.config.maxResultsPerAuthor??40;y.papers=await g(y.config.authors,e,(e,t,n)=>{y.progress=e>=t?`fetched ${t} authors`:`fetching ${n} (${e+1}/${t})…`,O()}),y.progress=``}catch(e){y.error=e instanceof Error?e.message:String(e)}finally{y.loading=!1,k()}}}async function M(){k();try{await A(),k(),await j()}catch(e){y.error=e instanceof Error?e.message:String(e),y.loading=!1,k()}}M();
