@@ -475,11 +475,6 @@ async function writeOutputs({ weeks, merged, cfg, builtAt }) {
     renderHtml({
       weeks,
       authors: cfg.authors,
-      meta: {
-        builtAt,
-        paperCount: merged.length,
-        weekRange,
-      },
     })
   );
   await fs.writeFile(path.join(ROOT, ".nojekyll"), "");
