@@ -1,0 +1,10 @@
+{
+  "name": "arxiv-filter-weekly",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update": "node update.mjs",
+    "build": "node update.mjs",
+    "html": "node update.mjs --html-only"
+  }
+}

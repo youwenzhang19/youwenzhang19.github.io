@@ -1,23 +1,81 @@
 {
-  "_comment": "Charlie 关注作者名录。name=界面标签；query=arXiv au: 检索串。filter=可选启发式过滤（目前 Carlo Rovelli 用 phil-sci）。",
-  "maxResultsPerAuthor": 40,
+  "_comment": "Charlie 关注作者。name=全名；shortName=gp 式条目冒号后短名；query=arXiv au:；field=领域；filter=可选启发式（phil-sci 仅 Rovelli）。filterNote 不在 UI 展示。",
+  "pageSize": 100,
+  "maxPagesPerAuthor": 30,
+  "requestDelayMs": 400,
   "authors": [
-    { "name": "Dong Lai", "query": "Dong Lai" },
+    {
+      "name": "Dong Lai",
+      "shortName": "Lai",
+      "query": "Dong Lai",
+      "field": "astrophysics"
+    },
+    {
+      "name": "Darius Modirrousta-Galian",
+      "shortName": "Modirrousta-Galian",
+      "query": "Darius Modirrousta-Galian",
+      "field": "astrophysics"
+    },
+    {
+      "name": "Christopher E. O'Connor",
+      "shortName": "O'Connor",
+      "query": "Christopher E. O'Connor",
+      "field": "astrophysics"
+    },
+    {
+      "name": "Mike Y. M. Lau",
+      "shortName": "Lau",
+      "query": "Mike Y. M. Lau",
+      "field": "astrophysics"
+    },
+    {
+      "name": "Mengqi Yang",
+      "shortName": "Yang",
+      "query": "Mengqi Yang",
+      "field": "astrophysics"
+    },
+    {
+      "name": "John B. Biersteker",
+      "shortName": "Biersteker",
+      "query": "John B. Biersteker",
+      "field": "astrophysics"
+    },
+    {
+      "name": "J. A. Kegerreis",
+      "shortName": "Kegerreis",
+      "query": "J. A. Kegerreis",
+      "field": "astrophysics"
+    },
+    {
+      "name": "Xiuming Huang",
+      "shortName": "X.Huang",
+      "query": "Xiuming Huang",
+      "field": "astrophysics"
+    },
+    {
+      "name": "Shuo Huang",
+      "shortName": "S.Huang",
+      "query": "Shuo Huang",
+      "field": "astrophysics"
+    },
+    {
+      "name": "Fangyuan Yu",
+      "shortName": "Fangyuan Yu",
+      "query": "Fangyuan Yu",
+      "field": "astrophysics"
+    },
     {
       "name": "Carlo Rovelli",
+      "shortName": "Rovelli",
       "query": "Carlo Rovelli",
-      "filter": "phil-sci",
-      "filterNote": "只保留与科学哲学相关的论文（关键词／分类启发式；可能漏检或误留）。"
+      "field": "philosophy-of-science",
+      "filter": "phil-sci"
     },
-    { "name": "Bas van Fraassen", "query": "Bas van Fraassen" },
-    { "name": "Darius Modirrousta-Galian", "query": "Darius Modirrousta-Galian" },
-    { "name": "Christopher E. O'Connor", "query": "Christopher E. O'Connor" },
-    { "name": "Mike Y. M. Lau", "query": "Mike Y. M. Lau" },
-    { "name": "Mengqi Yang", "query": "Mengqi Yang" },
-    { "name": "John B. Biersteker", "query": "John B. Biersteker" },
-    { "name": "J. A. Kegerreis", "query": "J. A. Kegerreis" },
-    { "name": "Xiuming Huang", "query": "Xiuming Huang" },
-    { "name": "Shuo Huang", "query": "Shuo Huang" },
-    { "name": "Fangyuan Yu", "query": "Fangyuan Yu" }
+    {
+      "name": "Bas van Fraassen",
+      "shortName": "van Fraassen",
+      "query": "Bas van Fraassen",
+      "field": "philosophy-of-science"
+    }
   ]
 }
