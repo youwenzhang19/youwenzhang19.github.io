@@ -407,12 +407,6 @@ function renderHtml({ weeks, meta, authors }) {
       color: var(--mute);
       margin-right: 6px;
     }
-    .meta {
-      color: var(--mute);
-      font-size: 13px;
-      margin: 0 0 16px;
-      text-align: center;
-    }
     .day-label { margin: 20px 0 8px; }
     .cal-items { margin: 0 0 8px; }
     .cal-item { margin: 2px 0; }
@@ -425,8 +419,7 @@ function renderHtml({ weeks, meta, authors }) {
     ${renderAuthorLinks(authors)}
     </nav>
   </header>
-  <p class="meta">Static weekly list · last built ${escapeHtml(meta.builtAt)} · ${escapeHtml(String(meta.paperCount))} papers · weeks ${escapeHtml(meta.weekRange)} · cutoff Fri 14:00 ET</p>
-  <p>Back to <a href="../index.html">Papers</a> · <a href="../../index.html">homepage</a></p>
+<p>Back to <a href="../index.html">Papers</a> · <a href="../../index.html">homepage</a></p>
 
 ${body || "  <p>(empty)</p>"}
 
