@@ -1,54 +1,54 @@
 {
-  "_comment": "Charlie 关注作者。Astro：au + cat:astro-ph*。Phil-sci：Rovelli／van Fraassen 均 filter=phil-sci（启发式；UI 不展示 filterNote）。",
+  "_comment": "Charlie 关注作者。shortName=首字母.姓。Astro：au + cat:astro-ph*。Phil-sci：Rovelli／van Fraassen 均 filter=phil-sci（UI 不展示 filterNote）。",
   "pageSize": 100,
   "maxPagesPerAuthor": 30,
   "requestDelayMs": 400,
   "authors": [
     {
       "name": "Dong Lai",
-      "shortName": "Lai",
+      "shortName": "D.Lai",
       "query": "Dong Lai",
       "field": "astrophysics",
       "cat": "astro-ph*"
     },
     {
       "name": "Darius Modirrousta-Galian",
-      "shortName": "Modirrousta-Galian",
+      "shortName": "D.Modirrousta-Galian",
       "query": "Darius Modirrousta-Galian",
       "field": "astrophysics",
       "cat": "astro-ph*"
     },
     {
       "name": "Christopher E. O'Connor",
-      "shortName": "O'Connor",
+      "shortName": "C.O'Connor",
       "query": "Christopher E. O'Connor",
       "field": "astrophysics",
       "cat": "astro-ph*"
     },
     {
       "name": "Mike Y. M. Lau",
-      "shortName": "Lau",
+      "shortName": "M.Lau",
       "query": "Mike Y. M. Lau",
       "field": "astrophysics",
       "cat": "astro-ph*"
     },
     {
       "name": "Mengqi Yang",
-      "shortName": "Yang",
+      "shortName": "M.Yang",
       "query": "Mengqi Yang",
       "field": "astrophysics",
       "cat": "astro-ph*"
     },
     {
       "name": "John B. Biersteker",
-      "shortName": "Biersteker",
+      "shortName": "J.Biersteker",
       "query": "John B. Biersteker",
       "field": "astrophysics",
       "cat": "astro-ph*"
     },
     {
       "name": "J. A. Kegerreis",
-      "shortName": "Kegerreis",
+      "shortName": "J.Kegerreis",
       "query": "J. A. Kegerreis",
       "field": "astrophysics",
       "cat": "astro-ph*"
@@ -76,21 +76,21 @@
     },
     {
       "name": "Siyu Yao",
-      "shortName": "Yao",
+      "shortName": "S.Yao",
       "query": "Siyu Yao",
       "field": "astrophysics",
       "cat": "astro-ph*"
     },
     {
       "name": "Carlo Rovelli",
-      "shortName": "Rovelli",
+      "shortName": "C.Rovelli",
       "query": "Carlo Rovelli",
       "field": "philosophy-of-science",
       "filter": "phil-sci"
     },
     {
       "name": "Bas van Fraassen",
-      "shortName": "van Fraassen",
+      "shortName": "B.van Fraassen",
       "query": "Bas van Fraassen",
       "field": "philosophy-of-science",
       "filter": "phil-sci"
