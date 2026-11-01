@@ -172,9 +172,43 @@ function philSciKeep(paper) {
   return false;
 }
 
+function normName(s) {
+  return String(s || "")
+    .toLowerCase()
+    .replace(/\./g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function authorListHas(paperAuthors, needle) {
+  const n = normName(needle);
+  if (!n) return false;
+  return (paperAuthors || []).some((a) => {
+    const x = normName(a);
+    return x === n || x.includes(n) || n.includes(x);
+  });
+}
+
+function applyCoauthorRules(author, papers) {
+  let out = papers;
+  if (author.requireAnyCoauthor?.length) {
+    out = out.filter((p) =>
+      author.requireAnyCoauthor.some((co) => authorListHas(p.authors, co))
+    );
+  }
+  if (author.excludeAnyCoauthor?.length) {
+    out = out.filter(
+      (p) =>
+        !author.excludeAnyCoauthor.some((co) => authorListHas(p.authors, co))
+    );
+  }
+  return out;
+}
+
 function applyFilter(author, papers) {
-  if (author.filter === "phil-sci") return papers.filter(philSciKeep);
-  return papers;
+  let out = applyCoauthorRules(author, papers);
+  if (author.filter === "phil-sci") out = out.filter(philSciKeep);
+  return out;
 }
 
 /** Build arXiv API / site search_query for an author. */
@@ -291,9 +325,16 @@ async function fetchAuthor(author, cfg) {
     });
     const url = `${API}?${params}`;
     process.stderr.write(`  ${author.name} [${authorSearchQuery(author)}] start=${start} … `);
-    const res = await fetch(url, {
-      headers: { "User-Agent": "youwenzhang19-arxiv-filter-weekly/1.0" },
-    });
+    let res;
+    for (let attempt = 0; attempt < 6; attempt++) {
+      res = await fetch(url, {
+        headers: { "User-Agent": "youwenzhang19-arxiv-filter-weekly/1.0" },
+      });
+      if (res.status !== 429) break;
+      const wait = delay * (attempt + 2);
+      process.stderr.write(`429, retry in ${wait}ms … `);
+      await sleep(wait);
+    }
     if (!res.ok) throw new Error(`HTTP ${res.status} for ${author.name}`);
     const xml = await res.text();
     if (total == null) total = totalResults(xml);

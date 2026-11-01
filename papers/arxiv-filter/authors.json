@@ -2,7 +2,7 @@
   "_comment": "Charlie 关注作者。shortName=首字母.姓。Astro：au + cat:astro-ph*。Phil-sci：Rovelli／van Fraassen 均 filter=phil-sci（UI 不展示 filterNote）。",
   "pageSize": 100,
   "maxPagesPerAuthor": 30,
-  "requestDelayMs": 400,
+  "requestDelayMs": 800,
   "authors": [
     {
       "name": "Dong Lai",
@@ -65,7 +65,28 @@
       "shortName": "S.Huang",
       "query": "Shuo Huang",
       "field": "astrophysics",
-      "cat": "astro-ph*"
+      "cat": "astro-ph*",
+      "_disambiguation": "黄硕（Tsinghua/Leiden 行星形成）。勿与日本高z/ALMA 同名 Shuo Huang 混淆。",
+      "requireAnyCoauthor": [
+        "Chris W. Ormel",
+        "Chris Ormel",
+        "Simon Portegies Zwart",
+        "Nienke van der Marel",
+        "Maite J. C. Wilhelm",
+        "Eiichiro Kokubo",
+        "Antoine C. Petit",
+        "Brent Maas",
+        "Tian Yi"
+      ],
+      "excludeAnyCoauthor": [
+        "Hideki Umehata",
+        "Ryohei Kawabe",
+        "Kotaro Kohno",
+        "Bunyo Hatsukade",
+        "Akiyoshi Tsujita",
+        "Fumitaka Nakamura",
+        "Yoichi Tamura"
+      ]
     },
     {
       "name": "Fangyuan Yu",

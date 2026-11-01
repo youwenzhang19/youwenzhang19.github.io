@@ -1,8 +1,8 @@
 {
-  "builtAt": "2026-10-31T17:23:27.698Z",
+  "builtAt": "2026-11-01T15:50:09.554Z",
   "weekBoundary": "Friday 14:00 America/New_York (EDT=UTC-4 → Fri 18:00 UTC / Sat 02:00 Asia/Shanghai; EST=UTC-5 → Fri 19:00 UTC / Sat 03:00 Asia/Shanghai)",
-  "paperCount": 478,
-  "weekCount": 375,
+  "paperCount": 470,
+  "weekCount": 370,
   "weekRange": "02/21/1992 → 10/30/2026",
   "authors": [
     {
@@ -508,18 +508,6 @@
       "label": "02/13/2026",
       "papers": [
         {
-          "title": "Upper limit on HF(1-0) absorption in a dusty star-forming galaxy at $z = 6$: Constraints on early fluorine enrichment",
-          "absUrl": "https://arxiv.org/abs/2602.12885",
-          "arxivId": "2602.12885",
-          "published": "2026-02-13T12:38:30Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        },
-        {
           "title": "Velocities of Free Floaters in a Sea of Stars",
           "absUrl": "https://arxiv.org/abs/2602.12017",
           "arxivId": "2602.12017",
@@ -645,18 +633,6 @@
     {
       "label": "11/21/2025",
       "papers": [
-        {
-          "title": "Large gas inflow driven by a matured galactic bar in the early Universe",
-          "absUrl": "https://arxiv.org/abs/2511.16078",
-          "arxivId": "2511.16078",
-          "published": "2025-11-20T06:14:57Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        },
         {
           "title": "Simulations of a Conducting Sphere Moving through Magnetized Plasma: Alfvén Wings, Slow Magnetosonic Wings, and Drag Force",
           "absUrl": "https://arxiv.org/abs/2511.14932",
@@ -848,23 +824,6 @@
           ],
           "matchedShortNames": [
             "C.O'Connor"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "09/05/2025",
-      "papers": [
-        {
-          "title": "Unveiling Stellar Feedback and Cloud Structure in the $ρ$ Ophiuchi A Region with ALMA and JWST: Discovery of Substellar Cores, C$^{18}$O Striations, and Protostellar Outflows",
-          "absUrl": "https://arxiv.org/abs/2509.01122",
-          "arxivId": "2509.01122",
-          "published": "2025-09-01T04:34:12Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
           ]
         }
       ]
@@ -1080,23 +1039,6 @@
           ],
           "matchedShortNames": [
             "M.Lau"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "04/04/2025",
-      "papers": [
-        {
-          "title": "ADF22+: a declining faint end in the far-infrared luminosity function in the SSA22 protocluster at z=3.09",
-          "absUrl": "https://arxiv.org/abs/2503.23372",
-          "arxivId": "2503.23372",
-          "published": "2025-03-30T09:16:02Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
           ]
         }
       ]
@@ -1455,23 +1397,6 @@
       ]
     },
     {
-      "label": "06/14/2024",
-      "papers": [
-        {
-          "title": "ALMA Lensing Cluster Survey: Physical characterization of near-infrared-dark intrinsically faint ALMA sources at z=2-4",
-          "absUrl": "https://arxiv.org/abs/2406.09890",
-          "arxivId": "2406.09890",
-          "published": "2024-06-14T10:01:31Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        }
-      ]
-    },
-    {
       "label": "05/03/2024",
       "papers": [
         {
@@ -1658,18 +1583,6 @@
           ],
           "matchedShortNames": [
             "D.Lai"
-          ]
-        },
-        {
-          "title": "J0107a: A Barred Spiral Dusty Star-forming Galaxy at $z=2.467$",
-          "absUrl": "https://arxiv.org/abs/2310.01782",
-          "arxivId": "2310.01782",
-          "published": "2023-10-03T04:13:57Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
           ]
         }
       ]
@@ -1863,23 +1776,6 @@
           "absUrl": "https://arxiv.org/abs/2302.03070",
           "arxivId": "2302.03070",
           "published": "2023-02-06T19:16:53Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "01/27/2023",
-      "papers": [
-        {
-          "title": "Characterizing CO Emitters in the SSA22-AzTEC26 Field",
-          "absUrl": "https://arxiv.org/abs/2301.09296",
-          "arxivId": "2301.09296",
-          "published": "2023-01-23T06:44:45Z",
           "matchedWatchAuthors": [
             "Shuo Huang"
           ],
@@ -2236,23 +2132,6 @@
           ],
           "matchedShortNames": [
             "M.Lau"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "04/15/2022",
-      "papers": [
-        {
-          "title": "OGLE-2019-BLG-1470LABc: Another Microlensing Giant Planet in a Binary System?",
-          "absUrl": "https://arxiv.org/abs/2204.05606",
-          "arxivId": "2204.05606",
-          "published": "2022-04-12T08:08:05Z",
-          "matchedWatchAuthors": [
-            "Shuo Huang"
-          ],
-          "matchedShortNames": [
-            "S.Huang"
           ]
         }
       ]
