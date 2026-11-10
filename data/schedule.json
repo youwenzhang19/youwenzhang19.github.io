@@ -1,12 +1,14 @@
 {
-  "updated": "2026-10-21",
+  "updated": "2026-11-10",
   "timezone": "Asia/Shanghai",
   "window": [
-    "2026-10-19",
-    "2026-10-20",
-    "2026-10-21",
-    "2026-10-22",
-    "2026-10-23"
+    "2026-11-09",
+    "2026-11-10",
+    "2026-11-11",
+    "2026-11-12",
+    "2026-11-13",
+    "2026-11-14",
+    "2026-11-15"
   ],
   "apple_calendar": {
     "enabled": false,
@@ -853,6 +855,196 @@
       "source": "manual",
       "done": false,
       "priority": 2
+    },
+    {
+      "id": "s133",
+      "date": "2026-11-09",
+      "text": "Advanced Professional Seminar — opening report",
+      "time": "2026-11-09T14:00:00",
+      "end": "2026-11-09T16:40:00",
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s134",
+      "date": "2026-11-09",
+      "text": "Philosophy of Science L8",
+      "time": "2026-11-09T18:00:00",
+      "end": "2026-11-09T20:20:00",
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s135",
+      "date": "2026-11-10",
+      "text": "Astronomy midterm symposium",
+      "time": "2026-11-10T11:50:00",
+      "end": "2026-11-10T12:45:00",
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s136",
+      "date": "2026-11-10",
+      "text": "[TDLI Lec] From dust grains to planetesimals, via streaming instability? by Yanqing Wu",
+      "time": "2026-11-10T14:00:00",
+      "end": "2026-11-10T15:00:00",
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s137",
+      "date": "2026-11-11",
+      "text": "Talk with Yu (DCI)",
+      "time": "2026-11-11T10:30:00",
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s138",
+      "date": "2026-11-11",
+      "text": "[Lec] De-idealizing de-idealization: beyond full reversal by Yichen Luo",
+      "time": "2026-11-11T13:30:00",
+      "end": "2026-11-11T15:30:00",
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s139",
+      "date": "2026-11-11",
+      "text": "[ZY-INS] Fields Medalist Yu Deng — from Newtonian mechanics to the Boltzmann equation: a rigorous theory of entropy increase",
+      "time": "2026-11-11T16:00:00",
+      "end": "2026-11-11T17:30:00",
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s140",
+      "date": "2026-11-11",
+      "text": "Dinner with Yichen",
+      "time": "2026-11-11T17:30:00",
+      "end": "2026-11-11T18:30:00",
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s141",
+      "date": "2026-11-11",
+      "text": "Summarize PIR progress and send to Shuo",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s142",
+      "date": "2026-11-11",
+      "text": "Summarize morning talk with Yu",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s143",
+      "date": "2026-11-11",
+      "text": "Follow-up PIR",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s144",
+      "date": "2026-11-11",
+      "text": "Follow-up DCI",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s145",
+      "date": "2026-11-12",
+      "text": "Thermodynamics and Statistical Physics",
+      "time": "2026-11-12T10:00:00",
+      "end": "2026-11-12T11:40:00",
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s146",
+      "date": "2026-11-12",
+      "text": "Finish Galaxy Astrophysics presentation",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s147",
+      "date": "2026-11-12",
+      "text": "Finish Thermodynamics & Statistical Physics HW2 and HW3",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s148",
+      "date": "2026-11-13",
+      "text": "Galaxy Astrophysics presentation",
+      "time": "2026-11-13T12:55:00",
+      "end": "2026-11-13T15:40:00",
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s149",
+      "date": "2026-11-14",
+      "text": "Astronomy museum internship — virtual check-in",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "id": "s150",
+      "date": "2026-11-14",
+      "text": "Find TA for Thermodynamics & Statistical Physics to recap midterm exam",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 2
+    },
+    {
+      "id": "s151",
+      "date": "2026-11-15",
+      "text": "Astronomy museum internship — virtual check-in",
+      "time": null,
+      "end": null,
+      "source": "manual",
+      "done": false,
+      "priority": 1
     }
   ]
 }
