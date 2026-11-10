@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-21",
-  "week_of": "2026-10-19",
+  "updated": "2026-11-10",
+  "week_of": "2026-11-09",
   "title": "Weekly plan",
   "note": "Refreshed each week",
   "tracks": [
@@ -9,18 +9,33 @@
       "name": "Planetesimal Impact Research (PIR)",
       "tasks": [
         {
+          "id": "pir-0",
+          "text": "Status: planetesimal-impact-2026 still greenfield (init-only on main); direction from Dong Lai 9.24 + prior plan; papers on homepage, research code not in-repo yet",
+          "done": false
+        },
+        {
           "id": "pir-1",
-          "text": "Build analytical model of solid-body infall",
+          "text": "Scaffold PIR repo (README + notebooks/ / scripts/ / refs layout)",
           "done": false
         },
         {
           "id": "pir-2",
-          "text": "Learn GIZMO code",
+          "text": "Build adiabatic H/He envelope toy model (ideal gas + hydrostatic; core → ~0.1 bar; scan gas fractions)",
           "done": false
         },
         {
           "id": "pir-3",
-          "text": "Run GIZMO simulations and match the analytical models",
+          "text": "Build solid-body infall / drag estimates (hydro vs gravitational drag by mass; deceleration + energy deposition)",
+          "done": false
+        },
+        {
+          "id": "pir-4",
+          "text": "Follow up Lai’s drag email / group engulfment paper (Eq. 14–15) and archive it in-repo",
+          "done": false
+        },
+        {
+          "id": "pir-5",
+          "text": "Lit-check thick-envelope impact + atmosphere-retention claims (Doris / 于冲 / 尚飞 / SPH–1D) with reliability tags; start GIZMO with 黄硕 (minimal collision run)",
           "done": false
         }
       ]
@@ -30,79 +45,44 @@
       "name": "Double Cone Ignition (DCI)",
       "tasks": [
         {
+          "id": "dci-0",
+          "text": "Status: symmetric jet-collision drafts exist; Yu (2026-10-28) rejected opening PPT logic and corrected L (ΔR / IFAR-linked, not cone-gap) — near-term: PPT rewrite + lit + rebuild around that L",
+          "done": false
+        },
+        {
           "id": "dci-1",
-          "text": "Review 10.16 meeting notes",
+          "text": "Revise opening PPT to Yu’s four-step logic (~10 pp): fold significance into motivation; embed mini lit survey; replace Wu Dong PIC with fluid figures + analytic callouts",
           "done": false
         },
         {
           "id": "dci-2",
-          "text": "Finish opening-report PPT",
+          "text": "Survey jet-collision papers (assumptions, invariants, rarefaction) and feed into PPT",
           "done": false
         },
         {
           "id": "dci-3",
-          "text": "Build bow-shock model",
+          "text": "Rewrite L in model notes as IFAR / post-shock fuel thickness ΔR (exit jet length ± factor)—not inter-cone spacing; keep deep IFAR off opening talk",
           "done": false
         },
         {
           "id": "dci-4",
-          "text": "Build 2D shock-wave analytical model",
+          "text": "Lock L–R / turnaround scan: fix fuel mass + KE (or speed) when sweeping L, R; clarify outer bound vs near-peak E_int",
           "done": false
         },
         {
           "id": "dci-5",
-          "text": "Build 1D rarefaction-wave analytical model",
-          "done": false
-        },
-        {
-          "id": "dci-6",
-          "text": "Build 2D cylindrically symmetric plasma shock-collision model",
+          "text": "Write E_int(t) / residual-KE curve; check planar→cylindrical shape factor; tabulate lab-frame Mach for T0 ~10 eV (working window M~1–20)",
           "done": false
         }
       ]
     },
     {
-      "id": "skate",
-      "name": "Skate Club anniversary prep",
+      "id": "wall",
+      "name": "Wall painting",
       "tasks": [
         {
-          "id": "skate-1",
-          "text": "Finalize time, venue, and activity format",
-          "done": true
-        },
-        {
-          "id": "skate-5",
-          "text": "Assign event staff roles",
-          "done": true
-        },
-        {
-          "id": "skate-2",
-          "text": "File event report (incl. campus security)",
-          "done": false
-        },
-        {
-          "id": "skate-3",
-          "text": "Buy supplies: graffiti tools, custom stickers, student-center décor, DJ gear / power bank",
-          "done": false
-        },
-        {
-          "id": "skate-4",
-          "text": "Make pre-mission materials",
-          "done": false
-        },
-        {
-          "id": "skate-6",
-          "text": "Write 11.1 run-of-show (pre-mission → tunnel graffiti → student-center play)",
-          "done": false
-        },
-        {
-          "id": "skate-7",
-          "text": "Make Xiaohongshu / WeChat Official Account post posters",
-          "done": false
-        },
-        {
-          "id": "skate-8",
-          "text": "Edit video on 10.31",
+          "id": "wall-1",
+          "text": "Wall painting",
           "done": false
         }
       ]
