@@ -1,9 +1,9 @@
 {
-  "builtAt": "2026-11-10T15:53:18.248Z",
+  "builtAt": "2026-11-11T12:48:51.703Z",
   "weekBoundary": "Friday 14:00 America/New_York (EDT=UTC-4 → Fri 18:00 UTC / Sat 02:00 Asia/Shanghai; EST=UTC-5 → Fri 19:00 UTC / Sat 03:00 Asia/Shanghai)",
-  "paperCount": 471,
-  "weekCount": 371,
-  "weekRange": "02/21/1992 → 11/06/2026",
+  "paperCount": 473,
+  "weekCount": 373,
+  "weekRange": "02/21/1992 → 11/13/2026",
   "authors": [
     {
       "name": "Dong Lai",
@@ -95,9 +95,33 @@
       "field": "philosophy-of-science",
       "query": "Bas van Fraassen",
       "filter": "phil-sci"
+    },
+    {
+      "name": "Yichen Luo",
+      "shortName": "Y.Luo",
+      "field": "philosophy-of-science",
+      "query": "Yichen Luo",
+      "filter": "phil-sci"
     }
   ],
   "weeks": [
+    {
+      "label": "11/13/2026",
+      "papers": [
+        {
+          "title": "Breaking the Chain: The Dynamical History of the Barnard's Star Planetary System",
+          "absUrl": "https://arxiv.org/abs/2611.13771",
+          "arxivId": "2611.13771",
+          "published": "2026-11-10T09:10:41Z",
+          "matchedWatchAuthors": [
+            "Shuo Huang"
+          ],
+          "matchedShortNames": [
+            "S.Huang"
+          ]
+        }
+      ]
+    },
     {
       "label": "11/06/2026",
       "papers": [
@@ -517,6 +541,23 @@
           ],
           "matchedShortNames": [
             "D.Lai"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "02/27/2026",
+      "papers": [
+        {
+          "title": "De-Idealizing De-Idealization: Beyond Full Reversal",
+          "absUrl": "https://arxiv.org/abs/2602.21324",
+          "arxivId": "2602.21324",
+          "published": "2026-02-24T19:44:54Z",
+          "matchedWatchAuthors": [
+            "Yichen Luo"
+          ],
+          "matchedShortNames": [
+            "Y.Luo"
           ]
         }
       ]
