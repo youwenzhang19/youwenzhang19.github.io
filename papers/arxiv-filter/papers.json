@@ -1,5 +1,5 @@
 {
-  "builtAt": "2026-11-11T13:04:11.088Z",
+  "builtAt": "2026-11-11T13:16:58.489Z",
   "weekBoundary": "Friday 14:00 America/New_York (EDT=UTC-4 → Fri 18:00 UTC / Sat 02:00 Asia/Shanghai; EST=UTC-5 → Fri 19:00 UTC / Sat 03:00 Asia/Shanghai)",
   "paperCount": 1551,
   "weekCount": 762,
@@ -73,13 +73,6 @@
       "shortName": "F.Yu",
       "field": "astrophysics",
       "query": "Fangyuan Yu",
-      "filter": null
-    },
-    {
-      "name": "Siyu Yao",
-      "shortName": "S.Yao",
-      "field": "astrophysics",
-      "query": "Siyu Yao",
       "filter": null
     },
     {
@@ -158,6 +151,13 @@
       "field": "astrophysics",
       "query": "Konstantin Batygin",
       "filter": null
+    },
+    {
+      "name": "Siyu Yao",
+      "shortName": "S.Yao",
+      "field": "philosophy-of-science",
+      "query": "Siyu Yao",
+      "filter": "phil-sci"
     },
     {
       "name": "Carlo Rovelli",
