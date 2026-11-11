@@ -1,5 +1,5 @@
 {
-  "_comment": "Charlie 关注作者。shortName=首字母.姓。Astro：au + cat:astro-ph*。Phil-sci：Rovelli／van Fraassen／Luo 均 filter=phil-sci（UI 不展示 filterNote）。Luo＝罗懿宸（NTU）；requireAnyCoauthor 消歧 CS/金融等同名。2026-11-11 扩：TDLI Mizuno／潘震／冯发波／谭先瑜＋gp Superpuff／planetesimal 精选。",
+  "_comment": "Charlie 关注作者。shortName=首字母.姓。Astro：au + cat:astro-ph*。Phil-sci：Rovelli／van Fraassen／Luo／Siyu Yao（姚思羽）均 filter=phil-sci（UI 不展示 filterNote）。Luo＝罗懿宸（NTU）；requireAnyCoauthor 消歧 CS/金融等同名。Siyu Yao＝姚思羽（Philosophy of Science；勿标成 astrophysics／astro-ph*）。2026-11-11 扩：TDLI Mizuno／潘震／冯发波／谭先瑜＋gp Superpuff／planetesimal 精选。",
   "pageSize": 100,
   "maxPagesPerAuthor": 30,
   "requestDelayMs": 800,
@@ -96,13 +96,6 @@
       "cat": "astro-ph*"
     },
     {
-      "name": "Siyu Yao",
-      "shortName": "S.Yao",
-      "query": "Siyu Yao",
-      "field": "astrophysics",
-      "cat": "astro-ph*"
-    },
-    {
       "name": "Yosuke Mizuno",
       "shortName": "Y.Mizuno",
       "query": "Yosuke Mizuno",
@@ -190,6 +183,14 @@
       "field": "astrophysics",
       "cat": "astro-ph*",
       "_from": "gp.html planetesimal 复现（含 ** Nature）：rocky Super-Earths from planetesimal ring；mutually gravitating planetesimals"
+    },
+    {
+      "name": "Siyu Yao",
+      "shortName": "S.Yao",
+      "query": "Siyu Yao",
+      "field": "philosophy-of-science",
+      "filter": "phil-sci",
+      "_affiliation": "姚思羽；Philosophy of Science（PoS）；与 Y.Luo 同 phil-sci／philosophy-of-science，勿用 astro-ph*"
     },
     {
       "name": "Carlo Rovelli",

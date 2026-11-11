@@ -38,7 +38,7 @@ npm run update
 # 等价：node update.mjs
 ```
 
-会按 `authors.json` **分作者**拉 arXiv API（分页）：Astro 加 `AND cat:astro-ph*`；可选 `requireAnyCoauthor`／`excludeAnyCoauthor`（Shuo Huang 消歧）；Rovelli／van Fraassen 走 `phil-sci` 启发式（UI 不展示说明）；重写 `papers.json` + `index.html`。
+会按 `authors.json` **分作者**拉 arXiv API（分页）：Astro 加 `AND cat:astro-ph*`；可选 `requireAnyCoauthor`／`excludeAnyCoauthor`（Shuo Huang／Luo 消歧）；Rovelli／van Fraassen／Luo／**Siyu Yao（姚思羽，PoS）** 走 `phil-sci` 启发式（UI 不展示说明）；重写 `papers.json` + `index.html`。
 
 然后按 homepage push protocol 提交并推到 `youwenzhang19.github.io` 的 `main`（Mac worker / `youwenzhang19` 身份）。
 
