@@ -1,5 +1,5 @@
 {
-  "_comment": "Charlie 关注作者。shortName=首字母.姓。Astro：au + cat:astro-ph*。Phil-sci：Rovelli／van Fraassen 均 filter=phil-sci（UI 不展示 filterNote）。",
+  "_comment": "Charlie 关注作者。shortName=首字母.姓。Astro：au + cat:astro-ph*。Phil-sci：Rovelli／van Fraassen／Luo 均 filter=phil-sci（UI 不展示 filterNote）。Luo＝罗懿宸（NTU）；requireAnyCoauthor 消歧 CS/金融等同名。",
   "pageSize": 100,
   "maxPagesPerAuthor": 30,
   "requestDelayMs": 800,
@@ -115,6 +115,19 @@
       "query": "Bas van Fraassen",
       "field": "philosophy-of-science",
       "filter": "phil-sci"
+    },
+    {
+      "name": "Yichen Luo",
+      "shortName": "Y.Luo",
+      "query": "Yichen Luo",
+      "field": "philosophy-of-science",
+      "filter": "phil-sci",
+      "_disambiguation": "罗懿宸（NTU Philosophy research fellow; PhD Western Ontario / Rotman; ORCID 0009-0001-4739-4364）。勿与 arXiv 上 CS／金融／机器人等同名 Yichen Luo 混淆。",
+      "requireAnyCoauthor": [
+        "Eugene Y. S. Chua",
+        "Eugene Chua",
+        "Eugene Y.S. Chua"
+      ]
     }
   ]
 }
