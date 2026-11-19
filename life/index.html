@@ -18,7 +18,7 @@
 
   <script type="module">
     import { loadJSON } from "../js/lib.js?v=7";
-    const data = await loadJSON("../data/life.json?v=2");
+    const data = await loadJSON("../data/life.json?v=3");
     const entries = (data.entries || []).sort((a, b) =>
       String(b.date).localeCompare(String(a.date))
     );

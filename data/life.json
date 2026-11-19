@@ -1,6 +1,16 @@
 {
-  "updated": "2026-09-19",
+  "updated": "2026-11-19",
   "entries": [
+    {
+      "id": "one-light-day",
+      "type": "note",
+      "title": "One Light-Day · Voyager 1",
+      "date": "2026-11-19",
+      "rating": null,
+      "feeling": "Voyager 1 is one light-day from us. Inspired by Emanuele Coccia, Métamorphoses. Now, as a whole, we existed 1 day ahead of ourselves in the future. The future is the simple truth that we are wandering, drifting beings. The capsule bearing our history has now become a cocoon, carrying all the future of mankind within itself. From it, new life will emerge, one that does not belong to any of us, either as individuals or as a species. And in that moment, we shall finally become the sky again: by nature, by matter, and by form.",
+      "href": "life/one-light-day.html",
+      "tags": ["note", "voyager", "coccia", "metamorphoses"]
+    },
     {
       "id": "white-nights",
       "type": "book",
